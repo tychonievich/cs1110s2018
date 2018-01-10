@@ -106,7 +106,7 @@ def calendar(data):
     ans.event('Final Exam', datetime.datetime(e3.year, e3.month, e3.day, 19, 00, 0, tzinfo=eastern), m180, location='TBA')
     
     for n,v in data['assignments'].items():
-        if a.lower().startswith('lab') || a.get('group','').lower() == 'lab': continue
+        if a.lower().startswith('lab') or a.get('group','').lower() == 'lab': continue
         if 'due' not in d: continue
         d = v['due']
         if not isinstance(d, datetime.datetime):

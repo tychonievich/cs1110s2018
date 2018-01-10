@@ -105,7 +105,7 @@ def calendar(data):
     e3 = data['Special Dates']['Exam 3']
     ans.event('Final Exam', datetime.datetime(e3.year, e3.month, e3.day, 19, 00, 0, tzinfo=eastern), m180, location='TBA')
     
-    for n,v in data['assignments'].items():
+    for a,v in data['assignments'].items():
         if a.lower().startswith('lab') or a.get('group','').lower() == 'lab': continue
         if 'due' not in d: continue
         d = v['due']

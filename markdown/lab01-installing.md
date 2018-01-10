@@ -72,8 +72,8 @@ So, if you have any doubts, come on down to lab, meet some of the TAs, and make 
 
 ## On Other Systems
 
-If you are using a system other than Windows or Mac (\*nix, \*BSD, etc.), first off, good for you!
-If you have trouble installing Python and PyCharm, post what system you are using on Piazza and we'll help get you set up.
+If you are using a system other than Windows or Mac (Linux, FreeBSD, Haiku, etc.), first off, good for you!
+In general, installing Python, PyGame, and PyCharm is pretty straightforward on these systems (download the Linux version of PyCharm even if you are using a BSD or the like), but if you have trouble post what system you are using on Piazza and we'll help get you set up.
 
 
 # Set up PyCharm and PyGame

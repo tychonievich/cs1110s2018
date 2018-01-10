@@ -28,7 +28,7 @@ So, if you have any doubts, come on down to lab, meet some of the TAs, and make 
     
     2.  Run the installer.
     
-    3.  At the Installation Options screen, check "Create associations" - ".py"; leave all other options at their default values.
+    3.  If asked, check "Create associations" - ".py"; leave all other options at their default values.
 
 3.  Set up PyCharm and PyGame; see the cross-platform information [below](#pycharm-setup).
     

@@ -107,7 +107,7 @@ def calendar(data):
     
     for a,v in data['assignments'].items():
         if a.lower().startswith('lab') or v.get('group','').lower() == 'lab': continue
-        if 'due' not in d: continue
+        if 'due' not in v: continue
         d = v['due']
         if not isinstance(d, datetime.datetime):
             d = datetime.datetime(d.year, d.month, d.day, 23 if a.get('group') == 'project' else 9, 55, 0, tzinfo=eastern)

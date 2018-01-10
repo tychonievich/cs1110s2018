@@ -329,12 +329,14 @@ if __name__ == '__main__':
     .calendar .Thu:first-child { margin-left: 60%; }
     .calendar .Fri:first-child { margin-left: 80%; }
     .calendar .Wed + .Fri, .calendar .Tue + .Thu, .calendar .Mon + .Wed { margin-left: 20%; }
-    .calendar .Thu.hide + .Fri { margin-left: 20%; }
+    .calendar .day.hide + .day { margin-left: 20%; }
+    .calendar .day.Mon.hide + .day.Wed { margin-left: 40%; }
+    .calendar .day.hide + .day.hide + .day { margin-left: 40%; }
     /* .calendar div.due { background-color:#ffeedd; } */
-    .calendar span.date { float:right; padding: 0ex 0ex 0.5ex 1ex; opacity:0.5; font-size: 70.7%; }
+    .calendar span.date { float:right; padding: 0ex 0ex 0.5ex 1ex; opacity:0.5; font-size: 70.7%; margin-top: -1.41ex; }
     .calendar .other { margin: -0.5ex -0.5ex 0.25ex -0.5ex; border-radius: 0.5ex 0.5ex 0ex 0ex; }
     .calendar .reading:before { content: "Reading: "; font-size:70.7%; opacity: 0.707; }
-    .calendar .reading { display: block; }
+    .calendar .reading:not(.hide) { display: block; }
 
     .calendar div.week { display:flex; flex-direction: row; align-items: flex-stretch; }
     .calendar div.week div.day { flex-grow: 0; flex-shrink: 1; flex-basis: auto; }
@@ -355,7 +357,7 @@ if __name__ == '__main__':
     .agenda .Sat span.date:before { content: "Sat "; }
     .agenda .day div:not(.other) { clear:left; }
     .agenda .reading:before { content: "; see " }
-    .agenda .other { margin: -0.5ex -0.5ex 0ex -0.5ex; padding-bottom: 0.25ex; }
+    .agenda .other { margin-top: -0.5ex; padding-bottom: 0.25ex; }
     
     /* .agenda .day:nth-of-type(2n+1) { background-color: #f7f7f7; } */
 </style>
@@ -389,6 +391,15 @@ function toggleClass(cls) {
     for(var i=0; i<elem.length; i+=1) 
         if (remove = elem[i].classList.contains('hide')) elem[i].classList.remove('hide');
         else elem[i].classList.add('hide');
+        
+    var elem = document.querySelectorAll('div.day');
+    for(var i=0; i<elem.length; i+=1) {
+        var keep = false;
+        for(var j=1; j<elem[i].children.length; j+=1)
+            keep |= !elem[i].children[j].classList.contains('hide');
+        if (keep) elem[i].classList.remove('hide')
+        else elem[i].classList.add('hide');
+    }
     
     var button = document.getElementById('tog'+cls);
     var end = button.value.substr(5);

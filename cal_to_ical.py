@@ -110,8 +110,8 @@ def calendar(data):
         if 'due' not in v: continue
         d = v['due']
         if not isinstance(d, datetime.datetime):
-            d = datetime.datetime(d.year, d.month, d.day, 23 if a.get('group') == 'project' else 9, 55, 0, tzinfo=eastern)
-            ans.event(n+' due', d, m5)
+            d = datetime.datetime(d.year, d.month, d.day, 23 if v.get('group') == 'project' else 9, 55, 0, tzinfo=eastern)
+            ans.event(a+' due', d, m5)
             
     
     return ans

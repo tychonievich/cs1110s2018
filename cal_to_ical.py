@@ -55,6 +55,7 @@ def calendar(data):
     m50 = datetime.timedelta(0, 50*60)
     m75 = datetime.timedelta(0, 75*60)
     m180 = datetime.timedelta(0, 180*60)
+    m5 = datetime.timedelta(0, 5*60)
     
     breaks = []
     exams = {}
@@ -103,6 +104,15 @@ def calendar(data):
     
     e3 = data['Special Dates']['Exam 3']
     ans.event('Final Exam', datetime.datetime(e3.year, e3.month, e3.day, 19, 00, 0, tzinfo=eastern), m180, location='TBA')
+    
+    for n,v in data['assignments'].items():
+        if a.lower().startswith('lab') || a.get('group','').lower() == 'lab': continue
+        if 'due' not in d: continue
+        d = v['due']
+        if not isinstance(d, datetime.datetime):
+            d = datetime.datetime(d.year, d.month, d.day, 23 if a.get('group') == 'project' else 9, 55, 0, tzinfo=eastern)
+            ans.event(n+' due', d, m5)
+            
     
     return ans
 

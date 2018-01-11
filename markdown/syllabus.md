@@ -35,11 +35,13 @@ Email: tychonievich@virginia.edu
 Comments: I read email once each work day if it contains 1110 in the subject line.  I get so much email that email without 1110 in the subject line often goes unread.
 
 ## Craig Dill
-Office hours: TBA
+
+Office hours: Monday and Wednesday, 1--2pm in Rice 514
 
 Email: cd9au@virginia.edu 
 
 ## Upsorn Praphamontripong
+
 Office: Rice 206
 
 Office hours: TBA
@@ -104,10 +106,10 @@ In common with many courses in CS, we use a point-based grading system.
 
 Task                        Weight  Comments
 -------------------------  -------- ----------------------------------------------
-Programming assignments     40%     Solo programming assignments will be due almost every week, and will be weighted equally
-Project                      5%     A larger partner project will be worth more points than the average assignment
+Programming assignments     31.5%   Solo programming assignments will be due almost every week, and will be weighted equally
+Project                     7.5%    A larger partner project will be worth more points than the average assignment
 Exams                       50%     Per College policy, "Unexcused absence from a final examination results in an automatic grade of F in the course."
-Participation               10%     For 1110, most participation points are awarded in lab; for 1111, most will be for in-class exercises.
+Participation               11%     For 1110, most participation points are awarded in lab; for 1111, most will be for in-class exercises.
 Professionalism Penalty    0--100%  Excessive missed classes, rude behavior toward instructor or classmates, unauthorized homework assistance, pestering TAs when they are not on the clock, etc., can be held against a student when final grades are calculated.
 
 The exact weights of assignments is subject to change as we further refine the assignments we will give.

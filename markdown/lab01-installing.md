@@ -30,7 +30,7 @@ So, if you have any doubts, come on down to lab, meet some of the TAs, and make 
     
     3.  If asked, check "Create associations" - ".py"; leave all other options at their default values.
 
-3.  Set up PyCharm and PyGame; see the cross-platform information [below](#pycharm-setup).
+3.  Set up PyCharm and PyGame; see the cross-platform information [below](#set-up-pycharm-and-pygame).
     
 ## on Mac
 
@@ -59,15 +59,12 @@ So, if you have any doubts, come on down to lab, meet some of the TAs, and make 
         1.  `xcode-select --install`{.bash}
         2.  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`{.bash}
         3.  `alias brew=/usr/local/bin/brew`{.bash}
-        4.  `brew install mercurial`{.bash}
-        5.  `brew install git`{.bash}
         6.  `brew install sdl sdl_image sdl_ttf smpeg portmidi libogg libvorbis`{.bash}
         7.  `brew install sdl_mixer --with-libvorbis`{.bash}
-        8.  `pip3 install hg+http://bitbucket.org/pygame/pygame`{.bash}
     
     3.  In the Finder, open  `/Applications` → `Python 3.6` and double-click on the icon for `Install Certificates.command`
 
-4.  Set up PyCharm and PyGame; see the cross-platform information [below](#pycharm-setup).
+4.  Set up PyCharm and PyGame; see the cross-platform information [below](#set-up-pycharm-and-pygame).
     
 
 ## On Other Systems

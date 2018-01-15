@@ -10,8 +10,8 @@ It uses two global variables to keep track of GPA and credits (both initially 0)
 
 -   Invoking `gpa.add_course(3.6, 3)` should add a 3-credit course with GPA 3.6 to the running GPA and credit count total.
 -   Invoking `gpa.gpa()` should retrieve your current total GPA.
--   Invoking `gpa.credits()` should retrieve your current total credits earned.
--   Invoking `gpa.add_course` with only one argument (e.g., `gpa.add_current(3.6)`) should add a 3-credit course.
+-   Invoking `gpa.credit_total()` should retrieve your current total credits earned.
+-   Invoking `gpa.add_course` with only one argument (e.g., `gpa.add_course(3.6)`) should add a 3-credit course.
 
 None of the functions nor the file itself should `print`{.python} anything nor ask for any `input`{.python}.
 
@@ -26,13 +26,13 @@ If in another file (which you do not submit) you write the following:
 import gpa
 
 gpa.add_course(4.0, 3)
-print(gpa.gpa(), gpa.credits())
+print(gpa.gpa(), gpa.credit_total())
 
 gpa.add_course(3.3)
-print(gpa.gpa(), gpa.credits())
+print(gpa.gpa(), gpa.credit_total())
 
 gpa.add_course(2.3, 4)
-print(gpa.gpa(), gpa.credits())
+print(gpa.gpa(), gpa.credit_total())
 ````
 
 you should get the following output:

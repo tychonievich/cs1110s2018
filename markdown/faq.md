@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 
 Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfdKT7TBKz9vg_2IfYAuPM7ErZ7Oy05EQAxVT7-Ooj_l_maRA/viewform?usp=sf_link).
 Note that we are somewhat constrained by fire code limits on room capacity, so no guarantees, but we'll try to accommodate everyone we can.
-
+We will contact you if we are able to accommodate your request.
 
 # Which CS 111x should I take?
 

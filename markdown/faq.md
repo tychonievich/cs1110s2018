@@ -3,6 +3,12 @@ title: Frequently Asked Questions
 ...
 
 
+# I need into the course or to switch section
+
+Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfdKT7TBKz9vg_2IfYAuPM7ErZ7Oy05EQAxVT7-Ooj_l_maRA/viewform?usp=sf_link).
+Note that we are somewhat constrained by fire code limits on room capacity, so no guarantees, but we'll try to accommodate everyone we can.
+
+
 # Which CS 111x should I take?
 
 All of the CS 111x courses provide a full introduction to programming sufficient to take additional CS courses.
@@ -42,7 +48,7 @@ CS 1511 is based off the successful CS Principles project and presents broader o
 CS 111*x* will teach you programming skills and related topics;
 CS 1511 will teach you computational thinking and digital citizenship.
 
-
+<!--
 # The course is listed as restricted
 
 CS courses are open to students in all majors, but for the initial periods of registration many are restricted to students in majors that require the course.
@@ -57,7 +63,7 @@ If you are not eligible to sign up for a full course, you cannot get on the wait
 
 Until your major is coded in SIS by the registrar, limitations on enrollment will hold as listed.
 We will not make any exceptions based on intended major declarations.
-
+-->
 <!-- 
 
 # Will the course fill up before I have a chance to enroll?
@@ -78,6 +84,8 @@ so demand may yet double, though it is unlikely to do so in a single year.
 # How do I get off the waitlist?
 
 In order to come off the wait list, there has to be an open seat in **both** the lecture and lab you are signed up for. If one or the other is not true, then SIS moves on to the next student who has the right combination.  Basically, this means switching to a section (or pair of sections) offered at a less-popular time.
+
+See also [I need into the course or to switch section] above.
 
 <!--
 
@@ -124,6 +132,8 @@ Second, SIS will only tell you your *lecture* position, but your *lab* position 
 In the past, we have had fairly steady drops from the first day of class up to the add deadline, generally with between 5 and 15% turnover.
 But the variance is high and we cannot predict which labs people will drop out of.
 
+See also [I need into the course or to switch section] above.
+
 # Will you sign a course action form?
 
 Only for course overload, and only if there are open seats in both the lecture and lab section in question.  All other course action form varieties violate room capacity and fire-code limits and will not be approved.
@@ -161,36 +171,17 @@ If none of the above options work for you, the department has a small number of 
 
 # Can I permanently swap sections?
 
-Not easily… specifics follow based on your current status
+Not easily… 
 
-## If you are currently enrolled and
-### New lab *and* lecture have open seats
-Then can drop and re-add in SIS.  But note that you have to drop first, so you can't simply keep your space in a full lab section and swap lecture sections.
-    
-### Keeping a full (lab/lecture) section, swapping to an open (lecture/lab) section
-Don't use SIS; this has to be handled by the registrar directly.
-Once the semester begins, email professor Tychonievich an email of the form
+If all of the following are true:
 
->   Please swap Jane Doe (mst3k) from CS 1110 lab section 103 (SIS id 16952) to lab section 105 (SIS id 17564)
+-   You are swapping into a lecture and lab that both have open seats
+-   You have no time conflicts with the new times on your schedule
+-   You do not have a financial or other hold
 
-Fill in the appropriate name, computing ID, lab/lecture sections and IDs.
-You can find SIS ids of courses on [Lou's List](http://rabi.phys.virginia.edu/mySIS/CS2/page.php?Semester=1178&Type=Group&Group=CompSci).
-We'll then verify there is space and if so, forward the request on to the registrar.
-
-These swaps cannot be made prior to the start of the semester.  Sorry.
-    
-### Swap with someone else in a full section
-Have one (1) of the swapping parties email professor Tychonievich an email of the form
-
->   Please swap Jane Doe (mst3k) from CS 1110 lab section 103 (SIS id 16952) to lab section 105 (SIS id 17564)
->
->   Please swap John Doe (aa1a) from CS 1110 lab section 105 (SIS id 17564) to lab section 103 (SIS id 16952)
-
-The email sender should CC the other parties in the swap.
-
-Fill in the appropriate names, computing IDs, lab/lecture sections and IDs.
-You can find SIS ids of courses on [Lou's List](http://rabi.phys.virginia.edu/mySIS/CS2/page.php?Semester=1178&Type=Group&Group=CompSci).
-We'll then verify that all students are enrolled in their *from* sections and that the swap does not change total enrollment size in any section and then forward the request on to the registrar.
+... then you can swap via SIS.
+In any other case, we'll need to contact a registrar to make that happen, and it will depend on room availability.
+See [I need into the course or to switch section] above for how to get us the information needed to put you on our list of people to try to get swapped.
 
 ## If you are currently on a waiting list
 See [Can I switch which lab I'm waiting for](#can-i-switch-which-lab-im-waiting-for) above.
@@ -199,11 +190,6 @@ The same logic applies to lectures.
 ## I'm currently enrolled, but there are enrollment restrictions now
 You'll have to wait for the restrictions to lift so that you could enroll before you can change section.
 See [The course is listed as restricted](#the-course-is-listed-as-restricted) above.
-
-## I'm currently enrolled but I have a conflict with the time
-
-Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfSUIBU_34AVIDUUEKdtAUU79BpZlP-LQSiInBtEI-VkmOCsw/viewform?usp=sf_link), which will log your computing ID (log in with your @virginia.edu google account).
-We only have a few reserved seats, so no guarantees, but we'll try to accommodate those with genuine need.
 
 # Can I go to different lab section this week?
 
@@ -236,7 +222,7 @@ When we get closer to the end of the semester, we'll have a form you'll fill out
 University policy does not provide any accommodations for travel.
 If you believe you are an exception, contact your dean; only deans may approve final exam rescheduling.
 
-Know in advance that "I already paid for tickets" is *not* a special case.
+Know in advance that "I already paid for airline tickets" is *not* a special case.
 
 
 # My program handled all the example inputs correctly but still got a 0.  Why?

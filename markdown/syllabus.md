@@ -74,7 +74,7 @@ Make sure all private messages are visible to *all* instructors, not just one or
 
 ## Primary Text
 
-<span class="floater">![Sprock books's cover](files/codercover.png)</span>
+<span class="floater" style="shape-outside: polygon(70% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 25%, 30% 30%);">![Sprock books's cover](files/codercover.png)</span>
 
 *The Coder's Apprentice* by Pieter Spronck; available online for free: [http://www.spronck.net/pythonbook/](http://www.spronck.net/pythonbook/)
 

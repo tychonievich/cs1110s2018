@@ -176,7 +176,7 @@ or as a docstring at the beginning of the file, as e.g.
 ### Write your own code
 
 You must write your own code.
-Not just type it (though you need to do that too): compose it yourself.
+Not just type it (though you need to do that too): **compose it yourself**, as your own original work.
 Beware of looking at other students code or code you find online: it is hard to unsee and can spoil your ability to compose your own solutions!
 
 ### Understand what you submit

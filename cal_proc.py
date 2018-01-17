@@ -405,6 +405,7 @@ if __name__ == '__main__':
     .agenda .reading:before { content: "; see " }
     
 .agenda .other { margin-top: -0.5ex; padding-bottom: 0.25ex; }
+.agenda .current .other { margin: -0.5ex -0.5ex 0.25ex -0.5ex; }
     
     /* .agenda .day:nth-of-type(2n+1) { background-color: #f7f7f7; } */
 </style>

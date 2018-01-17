@@ -12,7 +12,7 @@ Section |Time             |Place                 |Instructor
 --------|-----------------|----------------------|-----------------------
 1110-001|MoWeFr 2–2:50PM  |Chemistry Building 402|Luther Tychonievich    
 1110-002|MoWeFr 12–12:50PM|Olsson Hall 120       |Craig Dill
-1110-003|MoWeFr 11–11:50AM|Wilson Hall 301       |Luther Tychonievich
+1110-003|MoWeFr 11–11:50AM|Gilmer Hall 130       |Luther Tychonievich
 1111    |MoWe 2–3:15PM    |Thorton Hall E303     |Upsorn Praphamontripong
 
 ## Lab Sections

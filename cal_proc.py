@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, date
 from yaml import load
 from glob import glob
 from sys import stderr
-import json, re, markdown
+import json, re, markdown, os.path
 try:
     from yaml import CLoader as Loader
 except ImportError:
@@ -196,7 +196,7 @@ def coursegrade_json(data):
 
 weekdays = ('Mon','Tue','Wed','Thu','Fri','Sat','Sun')
 
-def calendar(data):
+def calendar(data,l001={},l002={},l003={},l1111={}):
     oneday = timedelta(1)
     things = {}
     breaks = [
@@ -234,11 +234,26 @@ def calendar(data):
                     r = data['reading'].get(d1, [])
                     if d2 != d1: r.extend(data['reading'].get(d2, []))
                     today['1111'] = d1 + (' <span class="and">and</span> ' + d2 if d2 != d1 else '') + ('<span class="reading">' + ', '.join(r)+'</span>' if r else '')
+                    if d in l1111:
+                        links = []
+                        for k,v in l1111[d].items():
+                            if k != 'files':
+                                links.append('['+k+']('+v+')')
+                        links.extend('['+os.path.basename(_)+']('+_+')' for _ in l1111[d].get('files',[]))
+                        today['1111'] += ' <span class="links 11111">'+', '.join(links)+'</span>'
                 if (not noclass) and wd in ('Mon','Wed','Fri'): 
                     d1 = data['classes'][classidx] if classidx < len(data['classes']) else ''
                     r = data['reading'].get(d1, [])
                     classidx += 1
                     today['1110'] = d1 + ('<span class="reading">' + ', '.join(r)+'</span>' if r else '')
+                    for dic,nam in (l001,'l001'), (l002,'l002'), (l003,'l003'):
+                        if d in dic:
+                            links = []
+                            for k,v in dic[d].items():
+                                if k != 'files':
+                                    links.append('['+k+']('+v+')')
+                            links.extend('['+os.path.basename(_)+']('+_+')' for _ in dic[d].get('files',[]))
+                            today['1110'] += ' <span class="links '+nam+'">'+', '.join(links)+'</span>'
                 if (not noclass) and wd == 'Thu': 
                     today['1110'] = 'lab'
             if noclass:
@@ -296,9 +311,34 @@ def divify(weeks):
 
 if __name__ == '__main__':
     fixworking()
+    import os.path
 
     with open('markdown/cal.yaml') as stream:
         data = load(stream, Loader=Loader)
+
+    l001, l002, l003, l1111 = {}, {}, {}, {}    
+    try:
+        with open('links-001.yaml') as stream:
+            l001 = load(stream, Loader=Loader)
+        if l001 is None: l001 = {}
+    except: pass
+    try:
+        with open('links-002.yaml') as stream:
+            l002 = load(stream, Loader=Loader)
+        if l002 is None: l002 = {}
+    except: pass
+    try:
+        with open('links-003.yaml') as stream:
+            l003 = load(stream, Loader=Loader)
+        if l003 is None: l003 = {}
+    except: pass
+    try:
+        with open('links-1111.yaml') as stream:
+            l1111 = load(stream, Loader=Loader)
+        if l1111 is None: l1111 = {}
+    except: pass
+    print(l001, l002, l003, l1111)
+    
         
     with open('assignments.json', 'w') as f:
         f.write(prettyjson(assignments_json(data)))
@@ -337,6 +377,12 @@ if __name__ == '__main__':
     .calendar .other { margin: -0.5ex -0.5ex 0.25ex -0.5ex; border-radius: 0.5ex 0.5ex 0ex 0ex; }
     .calendar .reading:before { content: "Reading: "; font-size:70.7%; opacity: 0.707; }
     .calendar .reading:not(.hide) { display: block; }
+   
+    .l001:before { content: "001 files: "; font-size:70.7%; opacity: 0.707; }
+    .l002:before { content: "002 files: "; font-size:70.7%; opacity: 0.707; }
+    .l003:before { content: "003 files: "; font-size:70.7%; opacity: 0.707; }
+    .11111:before { content: "1111 files: "; font-size:70.7%; opacity: 0.707; }
+    .links:not(.hide) { display: block; }
 
     .calendar div.week { display:flex; flex-direction: row; align-items: flex-stretch; }
     .calendar div.week div.day { flex-grow: 0; flex-shrink: 1; flex-basis: auto; }
@@ -357,7 +403,8 @@ if __name__ == '__main__':
     .agenda .Sat span.date:before { content: "Sat "; }
     .agenda .day div:not(.other) { clear:left; }
     .agenda .reading:before { content: "; see " }
-    .agenda .other { margin-top: -0.5ex; padding-bottom: 0.25ex; }
+    
+.agenda .other { margin-top: -0.5ex; padding-bottom: 0.25ex; }
     
     /* .agenda .day:nth-of-type(2n+1) { background-color: #f7f7f7; } */
 </style>
@@ -369,7 +416,7 @@ if __name__ == '__main__':
 <input type="button" id="asAgenda" value="agenda view" onclick="document.getElementById('schedule').setAttribute('class','agenda');"/>
 <input type="button" id="asCalendar" value="calendar view" onclick="document.getElementById('schedule').setAttribute('class','calendar')"/>
 """)
-        f.write(divify(calendar(data)))
+        f.write(divify(calendar(data, l001, l002, l003, l1111)))
         f.write("""<script>//<!--
 var days = document.querySelectorAll('.day');
 for(var i=0; i<days.length; i+=1) {

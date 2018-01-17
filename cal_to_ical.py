@@ -84,7 +84,7 @@ def calendar(data):
 
                 ans.event('1110-001', sec001, m50, location='CHM 402', details=topic)
                 ans.event('1110-002', sec002, m50, location='OLS 120', details=topic)
-                ans.event('1110-003', sec003, m50, location='WIL 301', details=topic)
+                ans.event('1110-003', sec003, m50, location='GIL 130', details=topic)
                 if d.weekday() != 4:
                     ans.event('1111', sec001, m75, location='THN E303')
             if d.weekday() == 3:

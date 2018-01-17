@@ -454,5 +454,5 @@ function toggleClass(cls) {
     if (!remove) button.value = 'show ' + end;
     else button.value = 'hide ' + end;
 }
-document.getElementById('asCalendar').click();
+document.getElementById('asAgenda').click();
 //--></script>""")

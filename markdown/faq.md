@@ -187,9 +187,11 @@ See [I need into the course or to switch section] above for how to get us the in
 See [Can I switch which lab I'm waiting for](#can-i-switch-which-lab-im-waiting-for) above.
 The same logic applies to lectures.
 
+<!--
 ## I'm currently enrolled, but there are enrollment restrictions now
 You'll have to wait for the restrictions to lift so that you could enroll before you can change section.
 See [The course is listed as restricted](#the-course-is-listed-as-restricted) above.
+-->
 
 # Can I go to different lab section this week?
 

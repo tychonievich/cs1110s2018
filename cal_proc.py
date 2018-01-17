@@ -240,7 +240,7 @@ def calendar(data,l001={},l002={},l003={},l1111={}):
                             if k != 'files':
                                 links.append('['+k+']('+v+')')
                         links.extend('['+os.path.basename(_)+']('+_+')' for _ in l1111[d].get('files',[]))
-                        today['1111'] += ' <span class="links 11111">'+', '.join(links)+'</span>'
+                        today['1111'] += ' <span class="links l1111">'+', '.join(links)+'</span>'
                 if (not noclass) and wd in ('Mon','Wed','Fri'): 
                     d1 = data['classes'][classidx] if classidx < len(data['classes']) else ''
                     r = data['reading'].get(d1, [])
@@ -381,7 +381,7 @@ if __name__ == '__main__':
     .l001:before { content: "001 files: "; font-size:70.7%; opacity: 0.707; }
     .l002:before { content: "002 files: "; font-size:70.7%; opacity: 0.707; }
     .l003:before { content: "003 files: "; font-size:70.7%; opacity: 0.707; }
-    .11111:before { content: "1111 files: "; font-size:70.7%; opacity: 0.707; }
+    .l1111:before { content: "1111 files: "; font-size:70.7%; opacity: 0.707; }
     .links:not(.hide) { display: block; }
 
     .calendar div.week { display:flex; flex-direction: row; align-items: flex-stretch; }

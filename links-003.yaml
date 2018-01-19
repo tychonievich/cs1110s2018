@@ -1,6 +1,8 @@
 2018-01-17:
-    audio: /screencasts/2018-01-17-1100.mp3
-    video: /screencasts/2018-01-17-1100.webm
-    files:
-        - /files/003/2018-01-17/notes.txt
-
+  audio: /screencasts/2018-01-17-1100.mp3
+  files: [/files/003/2018-01-17/notes.txt]
+  video: /screencasts/2018-01-17-1100.webm
+2018-01-19:
+  audio: /screencasts/2018-01-19-003.mp3
+  files: [/files/003/2018-01-19/washing.txt, /files/003/2018-01-19/do_this.txt, /files/003/2018-01-19/bugs.txt]
+  video: /screencasts/2018-01-19-003.webm

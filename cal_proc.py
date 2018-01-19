@@ -411,7 +411,7 @@ if __name__ == '__main__':
 </style>
 <input type="button" id="tog.cs1110" value="hide 1110" onclick="toggleClass('.cs1110')"/>
 <input type="button" id="tog.cs1111" value="hide 1111" onclick="toggleClass('.cs1111')"/>
-<input type="button" id="tog.reading" value="hide Reading" onclick="toggleClass('.reading')"/>
+<input type="button" id="tog.reading" value="hide Reading" onclick="toggleClass('.reading,.links');"/>
 <input type="button" id="tog.due" value="hide Assignments" onclick="toggleClass('.due')"/>
 <span style="width:2em; display:inline-block;">&nbsp;</span>
 <input type="button" id="asAgenda" value="agenda view" onclick="document.getElementById('schedule').setAttribute('class','agenda');"/>

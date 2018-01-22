@@ -362,7 +362,7 @@ if __name__ == '__main__':
     .calendar div.day { background-color: white; }
     .calendar div.week, .calendar div.day { vertical-align:top; min-height:1em; }
     .calendar div.day { display:inline-block; width:calc(20% - 2ex); border-radius:1ex; padding:0.5ex; border: solid #dddddd 0.5ex; }
-    .calendar div.day.past { opacity:0.75; }
+    .calendar div.day.past { opacity:0.7071; }
     .calendar div.day.current { border-color: #ffbb77; background: #fff7f0; }
     .calendar .Tue:first-child { margin-left: 20%; }
     .calendar .Wed:first-child { margin-left: 40%; }
@@ -391,7 +391,7 @@ if __name__ == '__main__':
     .agenda div.week { border-top: thick solid #dddddd; min-height: 3em; background:#eeeeee; }
     .agenda .day + .day { border-top: thin dotted #777777; }
     .agenda .day { padding: 0.5ex 0ex; background: white; min-height:1.5em; }
-    .agenda div.day.past { opacity:0.5; }
+    .agenda div.day.past { opacity:0.7071; }
     .agenda div.day.current { border: 0.25ex solid #ffbb77; padding:0.5ex; border-radius:1ex; background: #fff7f0; }
     .agenda span.date { float:left; opacity:0.5; }
     .agenda .Sun span.date:before { content: "Sun "; }

@@ -5,5 +5,9 @@
 2018-01-19:
   audio: /screencasts/2018-01-19-003.mp3
   files: [/files/003/2018-01-19/washing.txt, /files/003/2018-01-19/do_this.txt, /files/003/2018-01-19/bugs.txt]
-  video: /screencasts/2018-01-19-003.webm
   slides: /files/003/2018-01-19/drawn.pdf
+  video: /screencasts/2018-01-19-003.webm
+2018-01-22:
+  audio: /screencasts/2018-01-22-003.mp3
+  files: [/files/003/2018-01-22/slides.pdf]
+  video: /screencasts/2018-01-22-003.webm

@@ -98,7 +98,7 @@ Recall that
 -   *x* is a factor of *y* if the remainder of *y* ÷ *x* is zero.
 -   *x* is prime if its only positive integer factors are 1 and itself.
 -   *x* is a prime factor of *y* if both (a) *x* is a factor of *y* and (b) *x* is prime.
--   every integer ≥ 2 has a unique prime factorization; for example, 28 = 2 × 2 × 7 and 28 cannot be factorized into any other set of primes.
+-   every integer ≥ 2 has a unique prime factorization; for example, 28 = 2 × 2 × 7 and 28 cannot be factored into any other set of primes.
 
 
 ### Stage 2 Example runs

@@ -12,5 +12,11 @@
   video: /screencasts/2018-01-22-001.webm
 2018-01-24:
   audio: /screencasts/2018-01-24-001.mp3
-  files: [/files/001/2018-01-24/slides.pdf, /files/001/2018-01-24/first_demo_file.py, /files/001/2018-01-24/second_demo_file.py]
+  files: [/files/001/2018-01-24/slides.pdf, /files/001/2018-01-24/first_demo_file.py,
+    /files/001/2018-01-24/second_demo_file.py]
   video: /screencasts/2018-01-24-001.webm
+2018-01-26:
+  audio: /screencasts/2018-01-26-001.mp3
+  files: [/files/001/2018-01-26/first_turtle.py, /files/001/2018-01-26/slides.pdf,
+    /files/001/2018-01-26/first_demo_file.py]
+  video: /screencasts/2018-01-26-001.webm

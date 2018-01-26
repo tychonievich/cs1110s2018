@@ -18,7 +18,6 @@
   video: /screencasts/2018-01-24-003.webm
 2018-01-26:
   audio: /screencasts/2018-01-26-003.mp3
-  files: [/files/003/2018-01-26/second_demo_file.py, /files/003/2018-01-26/turtle_shapes.py,
-    /files/003/2018-01-26/first_demo_file.py, /files/003/2018-01-26/slides.pdf, /files/003/2018-01-26/my_first_turtle.py,
-    /files/003/2018-01-26/five_parts.py]
+  files: [/files/003/2018-01-26/five_parts.py, /files/003/2018-01-26/my_first_turtle.py, 
+    /files/003/2018-01-26/turtle_shapes.py, /files/003/2018-01-26/slides.pdf]
   video: /screencasts/2018-01-26-003.webm

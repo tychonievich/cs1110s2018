@@ -112,7 +112,6 @@ assignments:
         title: counting
         due: 2018-01-25
         weight: 0
-        files: '*.txt'
     Lab03:
         title: turtle
         due: 2018-02-01

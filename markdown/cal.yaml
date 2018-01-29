@@ -115,6 +115,7 @@ assignments:
     Lab03:
         title: turtle
         due: 2018-02-01
+        open: 2018-01-31
         files: ['*.py', '*.png', '*.PNG']
         late-policy: [1, 1, 1, 1]
     Lab04:

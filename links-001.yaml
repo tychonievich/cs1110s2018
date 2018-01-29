@@ -20,3 +20,8 @@
   files: [/files/001/2018-01-26/first_turtle.py, /files/001/2018-01-26/slides.pdf,
     /files/001/2018-01-26/first_demo_file.py]
   video: /screencasts/2018-01-26-001.webm
+2018-01-29:
+  audio: /screencasts/2018-01-29-001.mp3
+  files: [/files/001/2018-01-29/big_turtle_race.py, /files/001/2018-01-29/second_turtle.py,
+    /files/001/2018-01-29/first_turtle.py, /files/001/2018-01-29/slides.pdf, /files/001/2018-01-29/turtle_race.py]
+  video: /screencasts/2018-01-29-001.webm

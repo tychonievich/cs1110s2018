@@ -294,3 +294,10 @@ We get so many of these requests that we cannot grant them all, and to avoid bei
 If the announcement is purely academic in nature and there is a compelling reason why Introduction to Programming lecture is the right place to make it, email the professors; but we still make no guarantee we'll accommodate you.
 
 Raising your hand in class to make an announcement (rather than to ask or answer a question) is [unprofessional behavior](syllabus.html#professionalism) and will be treated as such.
+
+
+# I need more help...
+
+Have you tried office hours? We have a lot of students, but we also have a lot of TAs (and several faculty members) and they are generally the best-qualified and best-prepared help you will find. If you find otherwise, please let your instructor (or Prof Tychonievich as the lead instructor) know and we'll try to improve things.
+
+If that is not working for you, SEAS also offers free tutoring for all of its classes to all students (in SEAS or not); see <https://engineering.virginia.edu/current-students/current-undergraduate-students/current-undergrads-tutoring> for more.

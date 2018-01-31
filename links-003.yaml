@@ -26,3 +26,9 @@
   files: [/files/003/2018-01-29/several_turtle_2.py, /files/003/2018-01-29/slides.pdf,
     /files/003/2018-01-29/several_turtle.py, /files/003/2018-01-29/turtle_shapes.py]
   video: /screencasts/2018-01-29-003.webm
+2018-01-31:
+  audio: /screencasts/2018-01-31-003.mp3
+  files: [/files/003/2018-01-31/slides.pdf, /files/003/2018-01-31/snow_person.py,
+    /files/003/2018-01-31/sunflower_seed.py, /files/003/2018-01-31/draw_trees.py,
+    /files/003/2018-01-31/spirals.py, /files/003/2018-01-31/several_turtle_2.py]
+  video: /screencasts/2018-01-31-003.webm

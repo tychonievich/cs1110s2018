@@ -25,3 +25,9 @@
   files: [/files/001/2018-01-29/big_turtle_race.py, /files/001/2018-01-29/second_turtle.py,
     /files/001/2018-01-29/first_turtle.py, /files/001/2018-01-29/slides.pdf, /files/001/2018-01-29/turtle_race.py]
   video: /screencasts/2018-01-29-001.webm
+2018-01-31:
+  audio: /screencasts/2018-01-31-001.mp3
+  files: [/files/001/2018-01-31/sunflower_seeds.py, /files/001/2018-01-31/stacked_circles.py,
+    /files/001/2018-01-31/make_a_tree.py, /files/001/2018-01-31/big_turtle_race.py,
+    /files/001/2018-01-31/some_spirals.py, /files/001/2018-01-31/slides.pdf]
+  video: /screencasts/2018-01-31-001.webm

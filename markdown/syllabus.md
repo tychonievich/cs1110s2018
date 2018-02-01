@@ -26,8 +26,7 @@ Personal issues impacting coursework                          Your dean, and/or 
 
 Office: Rice 208
 
-Office hours: will be scheduled during the third week of the semester (one of my courses is not scheduled until then).
-Unless otherwise arranged, I will not have office hours on days of exams.
+Office hours: Monday 10--10:30, Wednesday 3:15--4:15 (but not on days of exams), Thursday 11:30--2.
 If my door is open, you are welcome to come in even when it is not my scheduled office hours.
 
 Email: tychonievich@virginia.edu

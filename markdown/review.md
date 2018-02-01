@@ -4,9 +4,12 @@ title: Python functions and methods you should know
 
 This document attempts to list the built-in functions, methods, and types that we expect every student will know well enough to ask about on exams.
 
-Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included on this list, nor are control constructs like `for`{.python} and `def`{.python}, but students are still expected to know them.
+All three exams are listed, using notes from previous semesters, but only the next one has been reviewed for accuracy based on topical adjustments for this semester.
+
 
 # Exam 1
+
+Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included on this list, nor are control constructs like `for`{.python} and `def`{.python}, but students are still expected to know them.
 
 -   [how to fill in TPEGS footers](lab05-paper.html#TPEGS)
 -   `len(collection)`{.python}

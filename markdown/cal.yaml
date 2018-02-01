@@ -79,6 +79,8 @@ reading:
     RegEx: [§25]
     Exceptions: [§17]
     Writing: [§16.3]
+    
+    Review: ["[topics list](review.html)"]
 
 assignments:
     ".groups":

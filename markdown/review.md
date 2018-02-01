@@ -9,8 +9,6 @@ All three exams are listed, using notes from previous semesters, but only the ne
 
 # Exam 1
 
-Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included on this list, nor are control constructs like `for`{.python} and `def`{.python}, but students are still expected to know them.
-
 -   [how to fill in TPEGS footers](lab05-paper.html#TPEGS)
 -   `len(collection)`{.python}
 -   `str(value)`{.python}
@@ -19,7 +17,10 @@ Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included o
 -   `print(things, to, be, displayed)`{.python}
 -   `input(prompt)`{.python}
 -   `type(value)`{.python}
+-   various operators (like `**`{.python} and `[i1:i2]`{.python}) and control constructs (like `for`{.python} and `def`{.python})
 -   [other exam 1 topics](lab05-paper.html#things-we-expect-you-to-know)
+
+Notably, `turtle` is not on the above list.
 
 See also the previous exams:
 

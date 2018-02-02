@@ -31,3 +31,8 @@
     /files/001/2018-01-31/make_a_tree.py, /files/001/2018-01-31/big_turtle_race.py,
     /files/001/2018-01-31/some_spirals.py, /files/001/2018-01-31/slides.pdf]
   video: /screencasts/2018-01-31-001.webm
+2018-02-02:
+  audio: /screencasts/2018-02-02-001.mp3
+  files: [/files/001/2018-02-02/slides.pdf, /files/001/2018-02-02/first_program.py,
+    /files/001/2018-02-02/strange_things.py]
+  video: /screencasts/2018-02-02-001.webm

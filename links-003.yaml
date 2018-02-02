@@ -32,3 +32,8 @@
     /files/003/2018-01-31/sunflower_seed.py, /files/003/2018-01-31/draw_trees.py,
     /files/003/2018-01-31/spirals.py, /files/003/2018-01-31/several_turtle_2.py]
   video: /screencasts/2018-01-31-003.webm
+2018-02-02:
+  audio: /screencasts/2018-02-02-003.mp3
+  files: [/files/003/2018-02-02/getting_input.py, /files/003/2018-02-02/strange_things.py,
+    /files/003/2018-02-02/slides.pdf, /files/003/2018-02-02/first_program.py]
+  video: /screencasts/2018-02-02-003.webm

@@ -37,3 +37,9 @@
   files: [/files/003/2018-02-02/getting_input.py, /files/003/2018-02-02/strange_things.py,
     /files/003/2018-02-02/slides.pdf, /files/003/2018-02-02/first_program.py]
   video: /screencasts/2018-02-02-003.webm
+2018-02-05:
+  audio: /screencasts/2018-02-05-003.mp3
+  files: [/files/003/2018-02-05/more_numbers.py, /files/003/2018-02-05/strange_things.py,
+    /files/003/2018-02-05/came_in.py, /files/003/2018-02-05/twice_your_age.py, /files/003/2018-02-05/many_strings.py,
+    /files/003/2018-02-05/slides.pdf]
+  video: /screencasts/2018-02-05-003.webm

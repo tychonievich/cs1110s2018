@@ -119,7 +119,7 @@ assignments:
         due: 2018-02-01
         open: 2018-01-31
         files: ['*.py', '*.ps', '*.png', '*.PNG']
-        late-policy: [1, 1, 1, 1]
+        late-policy: [1, 1]
     Lab04:
         title: madlib
         due: 2018-02-08

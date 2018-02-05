@@ -72,3 +72,6 @@ you should get the following output:
 
 Although our example invocation uses custom functions, it might be easier to test using the `abs` and `pow` examples in the function descriptions.
 
+Particularly for `myreduce`, but likely also for `mymap`, you'll want to test smaller examples than we have first.
+What's `myreduce(pow, [2,3])`, for example?
+How about `myreduce(pow, [2,3,4])`?

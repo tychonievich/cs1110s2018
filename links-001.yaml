@@ -36,3 +36,9 @@
   files: [/files/001/2018-02-02/slides.pdf, /files/001/2018-02-02/first_program.py,
     /files/001/2018-02-02/strange_things.py]
   video: /screencasts/2018-02-02-001.webm
+2018-02-05:
+  audio: /screencasts/2018-02-05-001.mp3
+  files: [/files/001/2018-02-05/odd_casts.py, /files/001/2018-02-05/string_formats.py,
+    /files/001/2018-02-05/palce_boaster.py, /files/001/2018-02-05/more_on_numbers.py,
+    /files/001/2018-02-05/age_predicter.py, /files/001/2018-02-05/slides.pdf]
+  video: /screencasts/2018-02-05-001.webm

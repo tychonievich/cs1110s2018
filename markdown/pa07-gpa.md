@@ -2,6 +2,10 @@
 title: "PA 07: gpa.py"
 ...
 
+# Warning -- Draft Status
+
+This assignment is still in draft status. It may change.
+
 # Task
 
 Write a file named `gpa.py` that computes a cumulative GPA using three functions:

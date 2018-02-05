@@ -17,7 +17,7 @@ For example, `mymap(abs, [3,-1,4,-1,5,-9])`{.python} should return `[3, 1, 4, 1 
 ## `myreduce(func, lst)`{.python}
 
 Given a two-argument function and a list, return the result of using the function repeatedly to combine all elements of the list into a single value.
-For example, `myreduce(pow, [3,-1,4,-1,5])`{.python} should compute `pow(pow(pow(pow(3, -1), 4), -1), 5)`{.python} and return `3486784401.0`{.python}.
+For example, `myreduce(pow, [3,-1,4,1,-5])`{.python} should compute `pow(pow(pow(pow(3, -1), 4), 1), -5)`{.python} and return `3486784401.0`{.python}.
 
 ## Restrictions
 
@@ -69,4 +69,6 @@ you should get the following output:
 ````
 
 # Troubleshooting
+
+Although our example invocation uses custom functions, it might be easier to test using the `abs` and `pow` examples in the function descriptions.
 

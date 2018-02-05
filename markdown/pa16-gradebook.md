@@ -79,10 +79,12 @@ Your program should also work with any other syllabus and any number of assignme
 
 # Troubleshooting
 
+You'll almost certainly want to have one `global`{.python} `dict` to store the per-kind averages. There are alternatives to this, but they are significantly more complicated.
+
 There are several ways to compute a weighted average, but the simplest is to
 
 1.  Compute the simple average (mean) of all the scores in each category individually
-    -   If an assignment has extra weight, count it as worth more, like you did in [PA 07](pa07-gpa.html)
+    -   If an assignment has extra weight, count it as worth more within its average, like you did in [PA 07](pa07-gpa.html)
 1.  Multiply each computed average by its weight and sum the results
 
 You program should also work if we re-order the `assignment` invocations, including having another `exam` in the middle of the `hw`s.

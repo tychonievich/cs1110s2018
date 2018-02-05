@@ -122,6 +122,7 @@ assignments:
         late-policy: [1, 1]
     Lab04:
         title: madlib
+        files: 'madlib.py'
         due: 2018-02-08
     Lab05:
         title: paper

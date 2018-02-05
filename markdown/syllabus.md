@@ -43,7 +43,7 @@ Email: cd9au@virginia.edu
 
 Office: Rice 206
 
-Office hours: Monday 10am-12pm, Tuesday 12pm-1pm, Wednesday 11:30am-12:30pm
+Office hours: Monday 11am-12pm, Tuesday 12:30pm-1:30pm, Wednesday 11:30am-12:30pm, Thursday 12:30pm-1:30pm
 
 Email: up3f@virginia.edu 
 

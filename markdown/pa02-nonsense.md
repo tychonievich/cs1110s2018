@@ -31,7 +31,7 @@ prandial prandial prandial prandial prandial prandial prandial prandial prandial
 
 # Troubleshooting
 
-In this and every other assignment all semester long, every `input('some prompt: ')`{.python} must end in either a colon or a question mark, and then a space (like the `': '`{.python} in the example above).
+In this and every other assignment all semester long, every `input('some prompt: ')`{.python} must end in either a colon or a question mark, and then a space (like the `'? '`{.python} in the example above).
 Failure to follow this rule will result in loss of points.
 
 To put quotes around something, use the other kind of quotes: `'"'`{.python}.

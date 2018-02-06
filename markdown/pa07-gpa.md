@@ -12,10 +12,10 @@ Write a file named `gpa.py` that computes a cumulative GPA using three functions
 `add_course` adds a new course to the running total, and `gpa` and `credits` gets your cumulative GPA and credit count, respectively.
 It uses two global variables to keep track of GPA and credits (both initially 0).
 
--   Invoking `gpa.add_course(3.6, 3)` should add a 3-credit course with GPA 3.6 to the running GPA and credit count total.
+-   Invoking `gpa.add_course(3.7, 3)` should add a 3-credit course with GPA 3.7 to the running GPA and credit count total.
 -   Invoking `gpa.gpa()` should retrieve your current total GPA.
 -   Invoking `gpa.credit_total()` should retrieve your current total credits earned.
--   Invoking `gpa.add_course` with only one argument (e.g., `gpa.add_course(3.6)`) should add a 3-credit course.
+-   Invoking `gpa.add_course` with only one argument (e.g., `gpa.add_course(3.7)`) should add a 3-credit course.
 
 None of the functions nor the file itself should `print`{.python} anything nor ask for any `input`{.python}.
 
@@ -49,6 +49,6 @@ you should get the following output:
 
 # Troubleshooting
 
-In case you are a little rusty on adding weighted averages, given an old GPA of $g_o$ and credit count of $c_o$, adding a course with GPA $g_c$ and credit count $c_c$ changes the GPA to be $(g_o c_o + g_c c_c) \div (c_o + c_c)$.
+In case you are a little rusty on adding weighted averages, given an old GPA of $g_o$ and credit count of $c_o$, adding a course with GPA $g_c$ and credit count $c_c$ changes the GPA to be $(g_o c_o + g_c c_c) ÷ (c_o + c_c)$.
 
 Make sure you understand the contents of our textbook, §8.2.4 and §8.3.2.

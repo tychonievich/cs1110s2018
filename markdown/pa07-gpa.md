@@ -49,6 +49,6 @@ you should get the following output:
 
 # Troubleshooting
 
-In case you are a little rusty on adding weighted averages, given an old GPA of $g_o$ and credit count of $c_o$, adding a course with GPA $g_c$ and credit count $c_c$ changes the GPA to be $(g_o c_o + g_c c_c) ÷ (c_o + c_c)$.
+In case you are a little rusty on adding weighted averages, given an old GPA of $g_o$ and credit count of $c_o$, adding a course with GPA $g_c$ and credit count $c_c$ changes the GPA to be $(g_o c_o + g_c c_c) ÷ (c_o + c_c)$. For example, ... (to be added)
 
 Make sure you understand the contents of our textbook, §8.2.4 and §8.3.2.

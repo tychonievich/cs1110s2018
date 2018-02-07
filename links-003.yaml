@@ -43,3 +43,8 @@
     /files/003/2018-02-05/came_in.py, /files/003/2018-02-05/twice_your_age.py, /files/003/2018-02-05/many_strings.py,
     /files/003/2018-02-05/slides.pdf]
   video: /screencasts/2018-02-05-003.webm
+2018-02-07:
+  audio: /screencasts/2018-02-07-003.mp3
+  files: [/files/003/2018-02-07/age_again.py, /files/003/2018-02-07/several_functions.py,
+    /files/003/2018-02-07/basic_functions.py, /files/003/2018-02-07/slides.pdf]
+  video: /screencasts/2018-02-07-003.webm

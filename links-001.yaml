@@ -42,3 +42,8 @@
     /files/001/2018-02-05/palce_boaster.py, /files/001/2018-02-05/more_on_numbers.py,
     /files/001/2018-02-05/age_predicter.py, /files/001/2018-02-05/slides.pdf]
   video: /screencasts/2018-02-05-001.webm
+2018-02-07:
+  audio: /screencasts/2018-02-07-001.mp3
+  files: [/files/001/2018-02-07/several_functions.py, /files/001/2018-02-07/age_again.py,
+    /files/001/2018-02-07/slides.pdf, /files/001/2018-02-07/basic_function.py]
+  video: /screencasts/2018-02-07-001.webm

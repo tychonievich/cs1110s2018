@@ -2,9 +2,6 @@
 title: "PA 07: gpa.py"
 ...
 
-# Warning -- Draft Status
-
-This assignment is still in draft status. It may change.
 
 # Task
 
@@ -49,6 +46,12 @@ you should get the following output:
 
 # Troubleshooting
 
-In case you are a little rusty on adding weighted averages, given an old GPA of $g_o$ and credit count of $c_o$, adding a course with GPA $g_c$ and credit count $c_c$ changes the GPA to be $(g_o c_o + g_c c_c) ÷ (c_o + c_c)$. For example, ... (to be added)
-
 Make sure you understand the contents of our textbook, §8.2.4 and §8.3.2.
+
+In case you are a little rusty on adding weighted averages, given an old GPA of $g_o$ and credit count of $c_o$, adding a course with GPA $g_c$ and credit count $c_c$ changes the GPA to be $(g_o c_o + g_c c_c) ÷ (c_o + c_c)$. For example, 
+
+-   If the old credit count ($c_o$) was 12 and the old GPA ($g_o$) was 3.5
+-   And we are adding a new class with $c_c$ = 4 and $g_c$ 3.3
+-   Then we make the new credit count 12 + 4 = 16 
+-   and the new GPA (3.5 × 4 + 3.3 × 12) ÷ 16 = 53.6 ÷ 16 = 3.35
+

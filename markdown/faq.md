@@ -309,9 +309,9 @@ However, we assume every student will have one week where they cannot participat
 
 ## But I have a valid excuse
 
-I'm sure you do. But it is the exact kind of thing the one free missed session is intended to cover. No need to tell us about it; the system will excuse it automatically
+That is the exact kind of thing the one free missed session is intended to cover. No need to tell us about it; the system will excuse it automatically.
 
-## But I already used my automatic excuse
+## But I already used my automatic excused absence
 
 If you have valid excuses for *more than one* missed sessions, let us know (typically by telling your TA in the next such session) and we can enter an extra excused absence for you.
-Note that to get extra excused absences, you need to demonstrate that  all of them, were beyond your control, even the previously-free one.
+Note that to get extra excused absences, you need to demonstrate that all of them were beyond your control, even the previously-automatic one.

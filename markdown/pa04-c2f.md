@@ -13,6 +13,8 @@ When run, it should
 Please match our prompts, etc, exactly.
 Your program should work for any numeric temperature that we provide.
 
+You are welcome to look up the Celcius to Fahrenheit formula, but if you do remember to cite your source!
+
 # Example Runs
 
 ## Example 1

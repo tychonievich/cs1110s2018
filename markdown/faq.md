@@ -286,8 +286,6 @@ UVA makes three different wireless networks available to students.  If one is do
 
 It is uncommon for all three wireless networks to be down at the same time.  In my experience, `Welcome_to_UVa_Wireless` in particular is almost always up, in part because it is annoying to have to keep entering passcodes so few people use it.
 
-
-
 # Can I make an announcement in CS 1110 or CS 1111?
 
 We get so many of these requests that we cannot grant them all, and to avoid being unfair we generally do not grant any of them.
@@ -301,3 +299,19 @@ Raising your hand in class to make an announcement (rather than to ask or answer
 Have you tried office hours? We have a lot of students, but we also have a lot of TAs (and several faculty members) and they are generally the best-qualified and best-prepared help you will find. If you find otherwise, please let your instructor (or Prof Tychonievich as the lead instructor) know and we'll try to improve things.
 
 If that is not working for you, SEAS also offers free tutoring for all of its classes to all students (in SEAS or not); see <https://engineering.virginia.edu/current-students/current-undergraduate-students/current-undergrads-tutoring> for more.
+
+# Can I make up a missed lecture or lab?
+
+All lecture and lab activities that are graded are graded on participation and involvement in a group setting, not on final product.
+As such, if you were not there you missed out on that experience and no make-up is possible.
+
+However, we assume every student will have one week where they cannot participate, and excuse one missed session automatically.
+
+## But I have a valid excuse
+
+I'm sure you do. But it is the exact kind of thing the one free missed session is intended to cover. No need to tell us about it; the system will excuse it automatically
+
+## But I already used my automatic excuse
+
+If you have valid excuses for *more than one* missed sessions, let us know (typically by telling your TA in the next such session) and we can enter an extra excused absence for you.
+Note that to get extra excused absences, you need to demonstrate that  all of them, were beyond your control, even the previously-free one.

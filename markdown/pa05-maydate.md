@@ -9,7 +9,7 @@ Write a file with one function: `creepy`.
 It should return `False`{.python} if the two may date each other without being creepy, `True`{.python}.
 See [dating.py](w01-dating.html) for a definition of creepy.
 
-Return the Boolean values `True`{.python} and `False`{.python}, not the strings `"True"`{.python} and `"False"`{.python}.
+Return the Boolean values^[Not every section discussed Boolean values. Comparisons (like `x < 3`) evalaute to Boolean values, called `bool` by Python. See [a summary of types](types.html) or section 6.1 of the textbook for more] `True`{.python} and `False`{.python}, not the strings `"True"`{.python} and `"False"`{.python}.
 
 Note: it is possible to solve this problem using `if`{.python}, but that is not encouraged.
 Your function should neither `print`{.python} nor ask for any `input`{.python}.

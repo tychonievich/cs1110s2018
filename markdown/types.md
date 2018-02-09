@@ -45,9 +45,9 @@ The following tries to summarize the most common basic types:
 
 | Type | Example literal values | Example expressions                                  |
 |------|----------------|------------------------------------------------------|
-| `int`{.python} | `3`{.python}, `-5023`{.python}, ...  | `2 + 3`{.python}, `3**4`{.python}, `abs(2 - 3)`{.python} |
+| `int`{.python} | `0`{.python}, `3`{.python}, `-5023`{.python}, ...  | `2 + 3`{.python}, `3**4`{.python}, `7 // 3`{.python}, `abs(2 - 3)`{.python} |
 | `float`{.python} | `3.0`{.python}, `-0.5023`{.python}, ...  | `2 / 3`{.python}, `1.0 + 4`{.python}, `pow(1.2, 3.4)`{.python} |
 | `str`{.python} | `""`{.python}, `'candles'`{.python}, ...  | `'yes' * 3`{.python}, `'co' + 'uch'`{.python}, `input('Type something: ')`{.python} |
 | `bool`{.python} | `True`{.python}, `False`{.python} (those are the only two) | `2 < 3`{.python}, `4 == 5`{.python} |
 | `NoneType`{.python} | `None`{.python} (that is the only one) | `print()`{.python} or the result of any other function that does not have a `return`{.python} |
-| function | (created using `def`{.python}) | `print`{.python}, `input`{.python}
+| function | (created using `def`{.python}) | `print`{.python}, `input`{.python}, `abs`{.python}, `pow`{.python}, 

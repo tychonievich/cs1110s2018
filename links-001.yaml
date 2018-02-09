@@ -47,3 +47,8 @@
   files: [/files/001/2018-02-07/several_functions.py, /files/001/2018-02-07/age_again.py,
     /files/001/2018-02-07/slides.pdf, /files/001/2018-02-07/basic_function.py]
   video: /screencasts/2018-02-07-001.webm
+2018-02-09:
+  audio: /screencasts/2018-02-09-001.mp3
+  files: [/files/001/2018-02-09/scope_intro.py, /files/001/2018-02-09/about_bool.py,
+    /files/001/2018-02-09/increase_variables.py]
+  video: /screencasts/2018-02-09-001.webm

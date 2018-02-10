@@ -29,6 +29,8 @@ Office: Rice 208
 Office hours: Monday 10--10:30, Wednesday 3:15--4:15 (but not on days of exams), Thursday 11:30--2.
 If my door is open, you are welcome to come in even when it is not my scheduled office hours.
 
+Due to uncontrolable circumstances, I will not hold office hours Monday 12 February nor Thursday 22 February.
+
 Email: tychonievich@virginia.edu
 
 Comments: I read email once each work day if it contains 1110 in the subject line.  I get so much email that email without 1110 in the subject line often goes unread.

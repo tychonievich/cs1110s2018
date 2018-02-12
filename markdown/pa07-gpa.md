@@ -53,5 +53,5 @@ In case you are a little rusty on adding weighted averages, given an old GPA of 
 -   If the old credit count ($c_o$) was 12 and the old GPA ($g_o$) was 3.5
 -   And we are adding a new class with $c_c$ = 4 and $g_c$ 3.3
 -   Then we make the new credit count 12 + 4 = 16 
--   and the new GPA (3.5 × 4 + 3.3 × 12) ÷ 16 = 53.6 ÷ 16 = 3.35
+-   and the new GPA (3.5 × 12 + 3.3 × 4) ÷ 16 = 55.2 ÷ 16 = 3.45
 

@@ -53,3 +53,9 @@
   files: [/files/003/2018-02-09/increasing_values.py, /files/003/2018-02-09/slides.pdf,
     /files/003/2018-02-09/play_with_scope.py]
   video: /screencasts/2018-02-09-003.webm
+2018-02-12:
+  audio: /screencasts/2018-02-12-003.mp3
+  files: [/files/003/2018-02-12/leap_year.py, /files/003/2018-02-12/give_raise.py,
+    /files/003/2018-02-12/more_functions.py, /files/003/2018-02-12/pages_to_read.py,
+    /files/003/2018-02-12/slides.pdf]
+  video: /screencasts/2018-02-12-003.webm

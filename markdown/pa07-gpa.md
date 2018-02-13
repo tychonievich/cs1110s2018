@@ -6,7 +6,7 @@ title: "PA 07: gpa.py"
 # Task
 
 Write a file named `gpa.py` that computes a cumulative GPA using three functions:
-`add_course` adds a new course to the running total, and `gpa` and `credits` gets your cumulative GPA and credit count, respectively.
+`add_course` adds a new course to the running total, and `gpa` and `credit_total` gets your cumulative GPA and credit count, respectively.
 It uses two global variables to keep track of GPA and credits (both initially 0).
 
 -   Invoking `gpa.add_course(3.7, 3)` should add a 3-credit course with GPA 3.7 to the running GPA and credit count total.

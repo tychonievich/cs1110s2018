@@ -59,3 +59,8 @@
     /files/003/2018-02-12/more_functions.py, /files/003/2018-02-12/pages_to_read.py,
     /files/003/2018-02-12/slides.pdf]
   video: /screencasts/2018-02-12-003.webm
+2018-02-14:
+  audio: /screencasts/2018-02-14-003.mp3
+  files: [/files/003/2018-02-14/slides.pdf, /files/003/2018-02-14/guessing_game.py,
+    /files/003/2018-02-14/age_commenter.py, /files/003/2018-02-14/more_functions.py]
+  video: /screencasts/2018-02-14-003.webm

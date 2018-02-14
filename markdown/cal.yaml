@@ -129,7 +129,7 @@ assignments:
         due: 2018-02-15
     Lab06:
         title: strings
-        files: 'str_funcs.py'
+        files: ['str_funcs.py','changing_str.py']
         due: 2018-02-22
     Lab07:
         title: hangman

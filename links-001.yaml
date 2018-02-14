@@ -58,3 +58,8 @@
     /files/001/2018-02-12/slides.pdf, /files/001/2018-02-12/sphere_volume.py, /files/001/2018-02-12/pay_the_bill.py,
     /files/001/2018-02-12/several_functions.py, /files/001/2018-02-12/wrong_way_to_import.py]
   video: /screencasts/2018-02-12-001.webm
+2018-02-14:
+  audio: /screencasts/2018-02-14-001.mp3
+  files: [/files/001/2018-02-14/and_or_wrong.py, /files/001/2018-02-14/slides.pdf,
+    /files/001/2018-02-14/age_commenter.py, /files/001/2018-02-14/several_functions.py]
+  video: /screencasts/2018-02-14-001.webm

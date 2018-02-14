@@ -17,7 +17,7 @@ All three exams are listed, using notes from previous semesters, but only the ne
 -   `print(things, to, be, displayed)`{.python}
 -   `input(prompt)`{.python}
 -   `type(value)`{.python}
--   various operators (like `**`{.python} and `[i1:i2]`{.python}) and control constructs (like `for`{.python} and `def`{.python})
+-   various operators (like `**`{.python} and `and`{.python}) and control constructs (like `for`{.python} and `def`{.python})
 -   [other exam 1 topics](lab05-paper.html#things-we-expect-you-to-know)
 
 Notably, `turtle` is not on the above list.

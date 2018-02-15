@@ -63,6 +63,6 @@ Your `mean` function can be a single line, as it only does math.
 
 Your `median` function will probably need several `if`{.python} statements.
 
-Did you test out your `median` when all three argument values are the same?
+Did you test out your `median` when all three argument values are the same? All three different? Two the same and one different? With the answer in all three locations?
 
 For `rms`, recall that <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ceaad50b7a0ae8ad64014319f138887ec5147f6c" title="square root means one-half power"/> an

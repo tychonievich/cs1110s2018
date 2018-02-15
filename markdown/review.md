@@ -41,9 +41,11 @@ Since exam 1, we have covered
 -   Reading files and web sites
 -   Reading tabular data (such as CSV)
 
+While exam 2 is not designed to be an cumulative exam (i.e., we won't ask questions we could have asked for exam 1), the new material builds off old material so cumulative understandign is expected.
+
 In general, we find questions directly about `tuple`{.python}, test case selection, and debugging strategies do not fit well into our exams.  However, the underlying concepts may appear in some way.  We typically intentionally test all other topics.
 
-We expect you to know the following built-in and library functions:
+We expect you to know the following built-in and library functions, in addition to those listed under exam 1:
 
 -   `import random`{.python}
     -   `random.randrange(lo, hi)`{.python}
@@ -93,7 +95,7 @@ Fall 2017   | [f2017e2.pdf](files/f2017e2.pdf) | [f2017e2key.html](files/f2017e2
 
 # Exam 3
 
--   everything listed for exams 1 and 2 (exam 3 is cumulative, but does not include `turtle`)
+-   everything listed for exams 1 and 2 (exam 3 is cumulative, including questions intentionally testing previous exam topics, though it does not include `turtle`)
 -   `try:`{.python}/`except:`{.python}
 -   `import pygame, gamebox`{.python}
     -   `box1.touches(box2)`{.python}

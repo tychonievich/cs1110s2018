@@ -69,3 +69,7 @@
   files: [/files/003/2018-02-16/slides.pdf, /files/003/2018-02-16/more_functions.py,
     /files/003/2018-02-16/fancy_number.py]
   video: /screencasts/2018-02-16-003.webm
+2018-02-19:
+  audio: /screencasts/2018-02-19-003.mp3
+  files: [/files/003/2018-02-19/e1review.py, /files/003/2018-02-19/slides.pdf]
+  video: /screencasts/2018-02-19-003.webm

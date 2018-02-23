@@ -73,3 +73,6 @@
   audio: /screencasts/2018-02-19-003.mp3
   files: [/files/003/2018-02-19/e1review.py, /files/003/2018-02-19/slides.pdf]
   video: /screencasts/2018-02-19-003.webm
+2018-02-23:
+  loops: http://www.cs.virginia.edu/~up3f/cs1111/slides/111x12-loop.pdf
+  examples: http://www.cs.virginia.edu/~up3f/cs1111/examples/loop/

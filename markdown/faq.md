@@ -307,6 +307,10 @@ As such, if you were not there you missed out on that experience and no make-up 
 
 However, we assume every student will have one week where they cannot participate, and excuse one missed session automatically.
 
+## But I have an exam in another class that conflicts with my lab time
+
+University policy requires courses having evening exams for day-time classes to provide alternative accommodations for SIS-scheduled conflicts, including CS 1110 labs. We will not excuse these absences; please contact your other course's instructor for an alternative exam time instead.
+
 ## But I have a valid excuse
 
 That is the exact kind of thing the one free missed session is intended to cover. No need to tell us about it; the system will excuse it automatically.

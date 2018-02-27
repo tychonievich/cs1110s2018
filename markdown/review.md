@@ -29,6 +29,7 @@ Semester    | Exam                       | Key/Rubric
 Fall 2016   | [f2016e1.pdf](files/f2016e1.pdf) | [f2016e1key.pdf](files/f2016e1key.pdf)
 Spring 2017 | [s2017e1.pdf](files/s2017e1.pdf) | [s2017e1key.txt](files/s2017e1key.txt)
 Fall 2017   | [f2017e1.pdf](files/f2017e1.pdf) | [f2017e1key.html](files/f2017e1key.html)
+Spring 2018   |  | [s2018e1key.html](files/s2018e1key.html)
 
 # Exam 2
 

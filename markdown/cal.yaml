@@ -135,9 +135,11 @@ assignments:
         due: 2018-02-22
     Lab07:
         title: hangman
+        files: 'hangman.py'
         due: 2018-03-01
     Lab08:
         title: crypto
+        files: 'crypto.py'
         due: 2018-03-15
     Lab09:
         title: debug

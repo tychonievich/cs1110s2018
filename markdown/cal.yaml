@@ -101,9 +101,11 @@ assignments:
             .rationale: "12 graded labs (drop 1) at 1% of grade each"
             drop: 1
             exclude: ["18Sp CS 1111-001 (ENGR)"]
+            rubric: {"kind":"percentage"}
         Exam:
             portion: "15+15+20"
             .rationale: "midterms 15% of grade each; final 20%"
+            rubric: {"kind":"percentage"}
 
     Lab01:
         title: installing

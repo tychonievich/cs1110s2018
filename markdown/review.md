@@ -29,7 +29,7 @@ Semester    | Exam                       | Key/Rubric
 Fall 2016   | [f2016e1.pdf](files/f2016e1.pdf) | [f2016e1key.pdf](files/f2016e1key.pdf)
 Spring 2017 | [s2017e1.pdf](files/s2017e1.pdf) | [s2017e1key.txt](files/s2017e1key.txt)
 Fall 2017   | [f2017e1.pdf](files/f2017e1.pdf) | [f2017e1key.html](files/f2017e1key.html)
-Spring 2018   |  | [s2018e1key.html](files/s2018e1key.html)
+Spring 2018   | [s2018e1.pdf](files/s2018e1.pdf) | [s2018e1key.html](files/s2018e1key.html)
 
 # Exam 2
 
@@ -43,7 +43,7 @@ Since exam 1, we have covered
 -   Reading files and web sites
 -   Reading tabular data (such as CSV)
 
-While exam 2 is not designed to be an cumulative exam (i.e., we won't ask questions we could have asked for exam 1), the new material builds off old material so cumulative understandign is expected.
+While exam 2 is not designed to be an cumulative exam (i.e., we won't ask questions we could have asked for exam 1), the new material builds off old material so cumulative understanding is expected.
 
 In general, we find questions directly about `tuple`{.python}, test case selection, and debugging strategies do not fit well into our exams.  However, the underlying concepts may appear in some way.  We typically intentionally test all other topics.
 

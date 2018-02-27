@@ -143,6 +143,7 @@ assignments:
         due: 2018-03-15
     Lab09:
         title: debug
+        files: 'debug.py'
         due: 2018-03-22
     Lab10:
         title: poi

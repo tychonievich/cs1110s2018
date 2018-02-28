@@ -28,6 +28,11 @@ Do not use list comprehensions (you probably don't even know what those are, but
 
 Neither of your functions (nor the file itself) should `print`{.python} anything nor ask for any `input`{.python}.
 
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
+
 # Example Invocations
 
 When you run `map_reduce.py`, nothing should happen.

@@ -18,6 +18,14 @@ Only list a word as misspelled if it does not appear either in the case they typ
 
 Your program should read the list of words from the web only once per run of the program, no matter how many lines of text the user types in a given run.
 
+## Style matters
+
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
+
+
 # Example Invocations
 
 An example run of the program might look like:

@@ -12,6 +12,11 @@ and a function `mysplit` such that `mysplit(s,t)`{.python} does the same thing t
 You may not use any string methods in your solution.
 None of the functions (nor the file itself) should `print`{.python} anything nor ask for any `input`{.python}.
 
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
+
 # Example Invocations
 
 When you run `str_redux.py`, nothing should happen.

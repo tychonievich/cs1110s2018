@@ -109,6 +109,13 @@ Details of the optional parameters are given below:
     Note that `not_after` will either be `None`{.python} or an integer (not a string).
     If `None`{.python}, do not limit the start time of the classes.
 
+## Style matters
+
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
+
 
 # Example Runs
 

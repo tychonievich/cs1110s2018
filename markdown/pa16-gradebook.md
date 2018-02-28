@@ -11,6 +11,7 @@ For example, exams might be 50% of the overall grade and the final exam might be
 Write a file `gradebook.py` that has a global gradebook `dict`, which stores a running total and cumulative weight for each supplied grade type;
 and two functions to interact with that `dict`:
 
+
 ## `assignment(kind, grade, weight)`{.python}
 
 The `kind` will be a string, and will indicate which group of assignments this one belongs to.
@@ -33,6 +34,13 @@ You may assume the values in the `dict` total to `1.0`.
 The given `proportions` may include assignment types that have never been sent to `assignments(...)`; return the grade assuming the student got 0 in those missing assignments.
 
 The given `proportions` may fail to include some assignment types that were sent to `assignments(...)`; those assignment types do not contribute to the returned grade.
+
+## Style matters
+
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
 
 # Example Invocations
 

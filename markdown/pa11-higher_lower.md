@@ -16,6 +16,11 @@ Before the game begins,
 1.  Ask what number to pick. If they say "−1", pick randomly; otherwise, use their number even if it is outside the 1–100 range.
 2.  Ask how many guesses they should have.  You may assume they respond with a positive integer.
 
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for any functions you write (note: functions are not required for this assignment, but might make sense).
+
 # Example Invocations
 
 An example run of the program might look like:

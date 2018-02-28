@@ -5,7 +5,7 @@ title: "PA 12: higher_lower_player.py"
 # Task
 
 Write a file named `higher_lower_player.py` that plays a simple guessing game with you.
-The game is the same as [the previous assignment](w06-higher-lower.html),
+The game is the same as [the previous assignment](pa11-higher-lower.html),
 but the roles are reversed: you think of the number, the computer guesses.
 
 Before the game begins, the computer should ask how many guesses it gets.
@@ -14,6 +14,11 @@ If the computer loses, it should ask what the correct answer was.
 It should also check to make sure that the answer is legal, and complain if it wasn't.
 
 If the user gives inconsistent answers, the computer should complain and stop playing.
+
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for any functions you write (note: functions are not required for this assignment, but might make sense).
 
 # Algorithm
 

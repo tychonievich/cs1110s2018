@@ -21,6 +21,10 @@ The algorithm is as follows:
 3.  Add the two sums above (33 + 37 = 70)
 4.  If the result is a multiple of 10 (i.e., its last digit is 0) then it was a valid credit card number.
 
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
 
 
 # Example Invocations

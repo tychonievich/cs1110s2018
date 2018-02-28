@@ -37,6 +37,7 @@ if the left-most pillar is off the left side of the screen,
 That way you can have a small fixed number of pillar objects in Python
 look like an endless stream of pillars when playing the game
 
+
 # Troubleshooting
 
 The infinite scrolling example games (all sections had one) might be a good starting point.

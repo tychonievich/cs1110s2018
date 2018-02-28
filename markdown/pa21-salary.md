@@ -92,6 +92,13 @@ Write a function named `report` in a file `salary.py` that takes a name and retu
 
 If the person is not in the salary site, return `None, 0, 0`{.python}
 
+## Style matters
+
+In addition to functional correctness, some points will be reserved for
+
+1.  having good variable names
+1.  having meaningful docstrings for all functions you write
+
 
 # Example Runs
 

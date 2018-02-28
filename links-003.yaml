@@ -79,3 +79,7 @@
   files: [/files/003/2018-02-26/smaller_power_of.py, /files/003/2018-02-26/slides.pdf,
     /files/003/2018-02-26/infinite_loop.py, /files/003/2018-02-26/basic_for.py]
   video: /screencasts/2018-02-26-003.webm
+2018-02-28:
+  audio: /screencasts/2018-02-28-003.mp3
+  files: [/files/003/2018-02-28/mystery_func.py, /files/003/2018-02-28/slides.pdf]
+  video: /screencasts/2018-02-28-003.webm

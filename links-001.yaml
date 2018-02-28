@@ -78,3 +78,7 @@
   audio: /screencasts/2018-02-26-001.mp3
   files: [/files/001/2018-02-26/slides.pdf, /files/001/2018-02-26/for_into.py, /files/001/2018-02-26/power_finder.py]
   video: /screencasts/2018-02-26-001.webm
+2018-02-28:
+  audio: /screencasts/2018-02-28-001.mp3
+  files: [/files/001/2018-02-28/style_example.py, /files/001/2018-02-28/slides.pdf]
+  video: /screencasts/2018-02-28-001.webm

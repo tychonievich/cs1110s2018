@@ -12,7 +12,7 @@ Write a file named `map_reduce.py` that implements two functions:
 ## `mymap(func, lst)`{.python}
 
 Given a single-argument function and a list, return a list containing the result of applying that function to each element of that list.
-For example, `mymap(abs, [3,-1,4,-1,5,-9])`{.python} should return `[3, 1, 4, 1 ,5, 9]`.
+For example, `mymap(abs, [3,-1,4,-1,5,-9])`{.python} should return `[3, 1, 4, 1, 5, 9]`.
 
 ## `myreduce(func, lst)`{.python}
 

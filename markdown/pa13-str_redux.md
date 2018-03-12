@@ -9,7 +9,7 @@ Write a file named `str_redux.py` that implements versions of the string methods
 In particular, define a function `myfind` such that `myfind(s,t)`{.python} does the same thing that `s.find(t)`{.python} does;
 and a function `mysplit` such that `mysplit(s,t)`{.python} does the same thing that `s.split(t)`{.python} does.
 
-You may not use any string methods in your solution.
+You may not use any [string methods](https://docs.python.org/3.6/library/stdtypes.html#string-methods) in your solution.
 All operators (including `in`, `[index]`, `[i1:i2]`, etc) are fair game.
 None of the functions (nor the file itself) should `print`{.python} anything nor ask for any `input`{.python}.
 

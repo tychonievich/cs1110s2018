@@ -10,6 +10,7 @@ In particular, define a function `myfind` such that `myfind(s,t)`{.python} does 
 and a function `mysplit` such that `mysplit(s,t)`{.python} does the same thing that `s.split(t)`{.python} does.
 
 You may not use any string methods in your solution.
+All operators (including `in`, `[index]`, `[i1:i2]`, etc) are fair game.
 None of the functions (nor the file itself) should `print`{.python} anything nor ask for any `input`{.python}.
 
 In addition to functional correctness, some points will be reserved for

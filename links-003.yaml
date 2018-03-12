@@ -88,3 +88,7 @@
   files: [/files/003/2018-03-02/slides.pdf, /files/003/2018-03-02/play_with_indices.py,
     /files/003/2018-03-02/raises.py]
   video: /screencasts/2018-03-02-003.webm
+2018-03-12:
+  audio: /screencasts/2018-03-12-003.mp3
+  files: [/files/003/2018-03-12/accumulators.py, /files/003/2018-03-12/slides.pdf]
+  video: /screencasts/2018-03-12-003.webm

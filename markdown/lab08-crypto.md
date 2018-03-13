@@ -205,10 +205,10 @@ We'll use these to define a "zombie-like" encryption.
 
 1. Leave `x` and `l` unchanged
 1. Covert every other letter into a number between 0 and 23 (ignore case)
-2. Convert the first six letters into the constants `b`, `g`, `h`, `m`, `n`, and `z` (in order)
-2. Convert the next six letters into the same consonants followed by an `r`
-2. Convert the next six letters into the same consonants followed by an `a`
-2. Convert the next six letters into the same consonants followed by an `ra`
+2. Convert the 0&ndash;5 into the constants `b`, `g`, `h`, `m`, `n`, and `z` (in order)
+2. Convert the 6&ndash;11 into the same consonants followed by an `r`
+2. Convert the 12&ndash;17 into the same consonants followed by an `a`
+2. Convert the 18&ndash;23 into the same consonants followed by an `ra`
 
 Thus `encrypt_zombie("please fix my brain")`{.python} returns `"halnbzan zhrx zrnra gnabhrba"`{.python}
 

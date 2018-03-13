@@ -8,7 +8,7 @@ title: "Lab 8: Cryptography"
 Cryptography is the art of hiding the meaning of a message in a way that the intended recipient can understand, but not anyone else.
 Fully secure cryptography requires a a lot of detail-oriented nuance of implementation and some abstract algebra, but we can get some casual-level cryptography using what we know so far.
 
-You'll write several functions in `crypto.py` you can use to perform casual encryption.
+You'll write several functions in `crypto.py` that are suitable for casual encryption.
 Feel free to use them to make messages harder for people who don't know the encryption to figure out,
 but don't use them for truly sensitive information; every encryption on this page can be broken...
 

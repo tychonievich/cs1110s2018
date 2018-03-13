@@ -76,3 +76,161 @@ Depending on which one you start with, even doing 2 might be out of scope for la
 
 Point out the Application section and encourage them to try it out after getting a cipher implemented.
 
+# Example Solutions
+
+## Character to/from Integer
+
+There are other ways, but by far the easiest (and also showing how to use some collections methods) is
+
+````python
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+index = alphabet.find(letter)
+letter = alphabet[index % len(alphabet)]
+````
+## Shift
+
+Here's a version that uses alphabet-based indices, with cases, in a separate function:
+
+````python
+def shift(c, key):
+    l = c.lower()
+    n = alphabet.find(l)
+    if n < 0: return c
+    l2 = alphabet[(n+key)%26]
+    if l == c: return l2
+    return l2.upper()
+    
+def encrypt_shift(text, key):
+    ans = ''
+    for c in text:
+        ans += shift(c, key)
+    return ans
+
+def decrypt_shift(text, key):
+    return encrypt_shift(text, 26-key)
+````
+
+
+## Vignère
+
+Re-using the `shift` function from the Shift cipher...
+
+````python
+def encrypt_vignere(text, key):
+    ans = ''
+    for i in range(len(text)):
+        ans += shift(text[i], alphabet.find(key[i%len(key)]))
+    return ans
+
+def decrypt_vignere(text, key):
+    ans = ''
+    for i in range(len(text)):
+        ans += shift(text[i], 26-alphabet.find(key[i%len(key)]))
+    return ans
+````
+
+This can also be done by chunks instead of character-by-character.
+
+## Autokey
+
+This solution uses things we've never taught, like inline `if` expressions...
+
+````python
+def encrypt_autokey(text, key):
+    ans = ''
+    for i in range(len(text)):
+        ans += shift(text[i], alphabet.find(key[i] if i < len(key) else text[i-len(key)]))
+    return ans
+
+def decrypt_autokey(text, key):
+    ans = ''
+    for i in range(len(text)):
+        ans += shift(text[i], 26-alphabet.find(key[i] if i < len(key) else ans[i-len(key)]))
+    return ans
+````
+
+## Ubbi Dubbi
+
+Note that the decryption function is not much like the encryption...
+
+````
+def encrypt_ubbi(text):
+    ans = ''
+    for c in text:
+        if c in 'aeiouAEIOU':
+            ans += 'ub'
+        ans += c
+    return ans
+
+def decrypt_ubbi(text):
+    ans = ''
+    i = 0
+    while i < len(text):
+        if text[i:i+2] == 'ub':
+            ans += text[i+2]
+            i += 3
+        else:
+            ans += text[i]
+            i += 1
+    return ans
+````
+
+
+## Permutation
+
+This cipher begs by-chunk solution:
+
+````
+def encrypt_perm(text, key):
+    text += ' '*(len(text) - (len(text)//len(key))*len(key))
+    ans = ''
+    for i in range(0, len(text), len(key)):
+        chunk = text[i:i+len(key)]
+        for j in key:
+            ans += chunk[j]
+    return ans
+
+def decrypt_perm(text, key):
+    inv = [0]*len(key)
+    for i in range(len(key)):
+        inv[key[i]] = i
+    print(key, inv)
+    return encrypt_perm(text, inv)
+````
+
+## Zombie
+
+There's no pretty way to do this one...
+
+````python
+def encrypt_zombie(text):
+    ans = ''
+    for c in text.lower():
+        i = alphabet.find(c)
+        if i < 0: ans += c
+        else: ans += 'bghmnz'[i%6] + ['', 'r', 'a', 'ra'][i//6]
+    return ans
+
+def decrypt_zombie(text):
+    ans = ''
+    i = 0
+    while i < len(text):
+        c = 'bghmnz'.find(text[i])
+        if c < 0:
+            ans += text[i]
+            i += 1
+            continue
+        elif text[i+1:i+3] == 'ra': 
+            c += 18
+            i += 3
+        elif text[i+1:i+2] == 'a': 
+            c += 12
+            i += 2
+        elif text[i+1:i+2] == 'r': 
+            c += 6
+            i += 2
+        else: 
+            i += 1
+        ans += 'abcdefghijkmnopqrstuvwyz'[c]
+    return ans
+````

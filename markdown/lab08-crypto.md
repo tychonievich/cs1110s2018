@@ -241,10 +241,10 @@ Vigenère is a lot harder (people were claiming it was unbreakable as late as th
 
 Autokey is harder still, but can be solved by guessing bits of text that are likely to occur in the original message. [Wikipedia](https://en.wikipedia.org/wiki/Autokey_cipher) works through an example.
 
-The permutation cipher is similar to the popular anagram word puzzles, and is relatively straightforward to crack.
+The permutation cipher is similar to several popular anagram word puzzles, and is relatively straightforward to crack.
 
 Ubbi Dubbi is simple enough that you can train yourself to encrypt and decrypt it in you head in real time, actually speaking with others in Ubbi Dubbi. Related quasi-ciphers include oppish and pig latin.
-Out zombie speak would be similar, if it was more pronounceable...
+Our zombie speak would be similar, if it was more pronounceable...
 
 # Real security
 

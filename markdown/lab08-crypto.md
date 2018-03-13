@@ -47,6 +47,12 @@ For example, if you do the shift cipher, write both `encrypt_shift` and `decrypt
 The examples below only describe encryption; to test decryption, note that it should always be the case that
 `decrypt_X(encrypt_X(text, key), key) == text`{.python}.
 
+Some ciphers depend on one another, or don't follow the same pattern as the others:
+
+- Vigenère is an extension of Shift.
+- Autokey is an extension of Vigenère. It is also by far the hardest to break of the ciphers on this page.
+- Ubbi Dubbi and Zombie Speak don't use the same loop structure to decrypt as they do to encrypt. They don't depend on one another, but Zombie Speak is somewhat harder.
+
 ## Shift cipher
 
 One of the first documented ciphers was the Caesar Cipher, which adds 3 to each letter ("a" becomes "d", "b" becomes "e", etc.)

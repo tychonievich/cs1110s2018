@@ -3,6 +3,12 @@ title: "Lab 8: Crypto"
 ...
 
 
+# Review Office Hours
+
+It appears that many students don't know about office hours.
+Start by reviewing how the OH link on the homepage works.
+
+
 # Purpose of this lab
 
 This lab has three goals

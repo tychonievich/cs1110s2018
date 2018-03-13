@@ -58,14 +58,14 @@ Only change letters; leave non-letter characters as they are.
 Example: `encrypt_shift("Caesar cipher", 3)`{.python} returns `"Fdhvdu flskhu"`{.python}; `encrypt_shift("Secret", 9)`{.python} returns `"Bnlanc"`{.python}
 
 
- | | | | 
--|-|-|-|-
-S|+|9|=|B
-e|+|9|=|n
-c|+|9|=|l
-r|+|9|=|a
-e|+|9|=|n
-t|+|9|=|c
+- - - - -
+S + 9 = B
+e + 9 = n
+c + 9 = l
+r + 9 = a
+e + 9 = n
+t + 9 = c
+- - - - -
 
 
 Suggestions:
@@ -134,16 +134,14 @@ The principle is as follows:
 
 For example, `encrypt_autokey("secret", "hi")`{.python} is going to be `"zmuvgm"`{.python}:
 
------------------
-                 
-- - - - - - - - -
+- - - - - - -- - -
 s + h = s +  7 = z
 e + i = e +  8 = m
 c + s = c + 18 = u
 r + e = r +  4 = v
 e + c = e +  2 = g
 t + r = t + 17 = k
------------------
+- - - - - - -- - -
 
 Autokey ciphers are significantly harder to break than Vigenère ciphers, though the underlying word-based content still allows them to be cracked with effort.
 

@@ -91,3 +91,8 @@
   audio: /screencasts/2018-03-12-001.mp3
   files: [/files/001/2018-03-12/accumulators.py, /files/001/2018-03-12/slides.pdf]
   video: /screencasts/2018-03-12-001.webm
+2018-03-14:
+  audio: /screencasts/2018-03-14-001.mp3
+  files: [/files/001/2018-03-14/slides.pdf, /files/001/2018-03-14/input_validation.py,
+    /files/001/2018-03-14/times_table.py, /files/001/2018-03-14/accumulators.py]
+  video: /screencasts/2018-03-14-001.webm

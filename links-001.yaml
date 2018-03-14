@@ -87,3 +87,7 @@
   files: [/files/001/2018-03-02/index_fun.py, /files/001/2018-03-02/pay_raise.py,
     /files/001/2018-03-02/slides.pdf]
   video: /screencasts/2018-03-02-001.webm
+2018-03-12:
+  audio: /screencasts/2018-03-12-001.mp3
+  files: [/files/001/2018-03-12/accumulators.py, /files/001/2018-03-12/slides.pdf]
+  video: /screencasts/2018-03-12-001.webm

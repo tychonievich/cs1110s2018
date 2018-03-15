@@ -138,7 +138,7 @@ The principle is as follows:
 -   Begin just as you would for Vigenère, shifting each letter by the corresponding letter of the key
 -   When you get to the end of the key, instead of wrapping around use the plain text to extend the key
 
-For example, `encrypt_autokey("secret", "hi")`{.python} is going to be `"zmuvgm"`{.python}:
+For example, `encrypt_autokey("secret", "hi")`{.python} is going to be `"zmuvgk"`{.python}:
 
 - - - - - - -- - -
 s + h = s +  7 = z

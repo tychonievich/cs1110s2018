@@ -97,3 +97,7 @@
   files: [/files/003/2018-03-14/best_player.py, /files/003/2018-03-14/loop_in_loop.py,
     /files/003/2018-03-14/slides.pdf]
   video: /screencasts/2018-03-14-003.webm
+2018-03-16:
+  audio: /screencasts/2018-03-16-003.mp3
+  files: [/files/003/2018-03-16/slides.pdf, /files/003/2018-03-16/reversers.py, /files/003/2018-03-16/secrets.py]
+  video: /screencasts/2018-03-16-003.webm

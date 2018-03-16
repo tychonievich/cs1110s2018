@@ -96,3 +96,7 @@
   files: [/files/001/2018-03-14/slides.pdf, /files/001/2018-03-14/input_validation.py,
     /files/001/2018-03-14/times_table.py, /files/001/2018-03-14/accumulators.py]
   video: /screencasts/2018-03-14-001.webm
+2018-03-16:
+  audio: /screencasts/2018-03-16-001.mp3
+  files: [/files/001/2018-03-16/slides.pdf, /files/001/2018-03-16/reversers.py, /files/001/2018-03-16/team_score.py]
+  video: /screencasts/2018-03-16-001.webm

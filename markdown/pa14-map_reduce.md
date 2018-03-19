@@ -56,12 +56,12 @@ def waggle(a):
         return -2*a
     else:
         return 2*a+1
-l = [3, -1, 4, -1, 5, -9, 2, -6, 5, -3, 5]
+x = [3, -1, 4, -1, 5, -9, 2, -6, 5, -3, 5]
 
-print(map_reduce.myreduce(wiggle, l))
-print(map_reduce.mymap(waggle, l))
-print(map_reduce.myreduce(wiggle, map_reduce.mymap(waggle, l)))
-print(l)
+print(map_reduce.myreduce(wiggle, x))
+print(map_reduce.mymap(waggle, x))
+print(map_reduce.myreduce(wiggle, map_reduce.mymap(waggle, x)))
+print(x)
 ````
 
 you should get the following output:

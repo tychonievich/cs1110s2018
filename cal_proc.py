@@ -231,7 +231,7 @@ def calendar(data,l001={},l002={},l003={},l1111={}):
                 if (not noclass) and wd in ('Mon','Wed'): 
                     d1 = data['classes'][classidx] if classidx < len(data['classes']) else ''
                     d2 = data['classes'][classidx+1] if classidx +1 < len(data['classes']) else ''
-                    r = data['reading'].get(d1, [])
+                    r = data['reading'].get(d1, [])[:]
                     if d2 != d1: r.extend(data['reading'].get(d2, []))
                     today['1111'] = d1 + (' <span class="and">and</span> ' + d2 if d2 != d1 else '') + ('<span class="reading">' + ', '.join(r)+'</span>' if r else '')
                     if d in l1111:

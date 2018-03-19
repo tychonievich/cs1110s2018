@@ -101,3 +101,8 @@
   audio: /screencasts/2018-03-16-003.mp3
   files: [/files/003/2018-03-16/slides.pdf, /files/003/2018-03-16/reversers.py, /files/003/2018-03-16/secrets.py]
   video: /screencasts/2018-03-16-003.webm
+2018-03-19:
+  audio: /screencasts/2018-03-19-003.mp3
+  files: [/files/003/2018-03-19/hangman_bug.py, /files/003/2018-03-19/intro_set.py,
+    /files/003/2018-03-19/slides.pdf]
+  video: /screencasts/2018-03-19-003.webm

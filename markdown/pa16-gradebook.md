@@ -97,3 +97,9 @@ There are several ways to compute a weighted average, but the simplest is to
 
 You program should also work if we re-order the `assignment` invocations, including having another `exam` in the middle of the `hw`s.
 
+There are many ways to set up your `dict`s. For example, you could
+
+-   Have a `dict` of `list`s of scores
+-   Have one `dict` of compiled averages and another of credit counts
+-   Have one `dict` of credit counts and another of accumulated grade points
+-   ...

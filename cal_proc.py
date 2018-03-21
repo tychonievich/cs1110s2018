@@ -369,6 +369,7 @@ if __name__ == '__main__':
     .calendar .Thu:first-child { margin-left: 60%; }
     .calendar .Fri:first-child { margin-left: 80%; }
     .calendar .Wed + .Fri, .calendar .Tue + .Thu, .calendar .Mon + .Wed { margin-left: 20%; }
+    .calendar .Mon + .Thu { margin-left: 40%; }
     .calendar .day.hide + .day { margin-left: 20%; }
     .calendar .day.Mon.hide + .day.Wed { margin-left: 40%; }
     .calendar .day.hide + .day.hide + .day { margin-left: 40%; }

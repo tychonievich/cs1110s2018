@@ -7,6 +7,9 @@ Special Dates:
   Spring recess:
     start: 2018-03-03
     end: 2018-03-11
+  Snow recess:
+    start: 2018-03-21
+    end: 2018-03-21
   Exam 1: 2018-02-21
   Exam 2: 2018-04-04
   Exam 3: 2018-05-03
@@ -42,7 +45,6 @@ classes:
     -   Debugging
     -   '`dict`'
     -   '`dict`'
-    -   Reading
     -   Reading
     -   Reading
 

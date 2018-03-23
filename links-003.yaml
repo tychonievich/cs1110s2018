@@ -106,3 +106,8 @@
   files: [/files/003/2018-03-19/hangman_bug.py, /files/003/2018-03-19/intro_set.py,
     /files/003/2018-03-19/slides.pdf]
   video: /screencasts/2018-03-19-003.webm
+2018-03-23:
+  audio: /screencasts/2018-03-23-003.mp3
+  files: [/files/003/2018-03-23/dict_methods.py, /files/003/2018-03-23/strange_dict.py,
+    /files/003/2018-03-23/slides.pdf, /files/003/2018-03-23/dict_intro.py, /files/003/2018-03-23/silly_translator.py]
+  video: /screencasts/2018-03-23-003.webm

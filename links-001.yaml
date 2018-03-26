@@ -110,3 +110,8 @@
   files: [/files/001/2018-03-23/silly_translator.py, /files/001/2018-03-23/dict_test.py,
     /files/001/2018-03-23/dict_intro.py, /files/001/2018-03-23/slides.pdf]
   video: /screencasts/2018-03-23-001.webm
+2018-03-26:
+  audio: /screencasts/2018-03-26-001.mp3
+  files: [/files/001/2018-03-26/expenses.py, /files/001/2018-03-26/expenses_string.py,
+    /files/001/2018-03-26/slides.pdf]
+  video: /screencasts/2018-03-26-001.webm

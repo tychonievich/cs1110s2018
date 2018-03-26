@@ -148,6 +148,7 @@ assignments:
         due: 2018-03-22
     Lab10:
         title: poi
+        files: 'poi.py'
         due: 2018-03-29
     Lab11:
         due: 2018-04-05

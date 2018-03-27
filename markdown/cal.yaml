@@ -151,6 +151,8 @@ assignments:
         files: 'poi.py'
         due: 2018-03-29
     Lab11:
+        title: rooms
+        files: 'rooms.py'
         due: 2018-04-05
     Lab12:
         title: pong

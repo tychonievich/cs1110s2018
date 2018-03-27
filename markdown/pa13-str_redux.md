@@ -1,5 +1,6 @@
 ---
 title: "PA 13: str_redux.py"
+notes: This was not a good assignment; either drop or simplify it
 ...
 
 # Task

@@ -13,8 +13,8 @@ Do this by reading a list of correctly spelled words from
 Then read lines of user-entered text;
 list any misspelled words in what they entered;
 and keep reading lines until they enter a blank line.
-Strip off any leading or trailing punctuation before checking the word (i.e., strip `.?!,()"'`).
-Only list a word as misspelled if it does not appear either in the case they typed it or in lower-case form.
+Strip off any leading or trailing punctuation before checking the word (the built-in string method `strip` can do this easily: `s.strip(".?!,()\"'")`{.python}).
+Only list a word as misspelled if it is not in the list of workds, but ignore case; "tHe" is not misspelled for this assignment.
 
 Your program should read the list of words from the web only once per run of the program, no matter how many lines of text the user types in a given run.
 
@@ -61,21 +61,7 @@ Match our formatting exactly, including
 -   reporting misspellings in the order they appear within the line
 -   reporting misspellings without bracketing punctuation (report `Boojum` not `Boojum!`, etc.)
 
-Capitalization sometimes matters.
-For example, `Abe` is spelled correctly (because it is a common nick-name)
-but `abe` is not (because it is not an English word).
-A few more examples:
-
-User enters | Dictionary has | Decision
-------------|----------------|---------
-Abe         | Abe            | correctly spelled
-abe         | Abe            | misspelled
-Abjure      | abjure         | correctly spelled
-abjure      | abjure         | correctly spelled
-ecmascript  | ECMAScript     | misspelled
-Ecmascript  | ECMAScript     | misspelled
-ECMAscript  | ECMAScript     | misspelled
-ECMAScript  | ECMAScript     | correctly spelled
+Case-insensitive matching is easier if both the reference words and the user words are converted to the same case.
 
 Can't figure out what case you are missing? Try the following:
 
@@ -84,7 +70,6 @@ Can't figure out what case you are missing? Try the following:
 -   Correctly spelled word inside apostrophes, like `'wits'`
 -   Incorrectly spelled word inside apostrophes, like `'witss'`
 -   All of the above with other punctuation (not just apostrophes)
--   The above with incorrect capitalization instead of incorrect spelling
 -   Incorrectly spelled words at the beginning, middle, and end of the first, middle, and last line of input
 
-Confused how to read the page only once?  Try reading the page into a list of words before you do any spellchecking.
+Confused how to read the page only once?  Try reading the page into a list of words before you do any spellchecking. You'll probably want to normalize the case of them at the time you read them, too.

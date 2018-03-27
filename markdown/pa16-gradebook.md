@@ -8,7 +8,7 @@ In this class, like many others, assignments are clustered by type: exams, progr
 Each assignment type has a given weight, and each assignment within a given type might also have a weight.
 For example, exams might be 50% of the overall grade and the final exam might be worth 1.5× as much as a midterm.
 
-Write a file `gradebook.py` that has a global gradebook `dict`, which stores a running total and cumulative weight for each supplied grade type;
+Write a file `gradebook.py` that has (one or more) global gradebook `dict`, which stores a running total and cumulative weight for each supplied grade type^[You'll probably need at least two pieces of information per grade type, but there are several things you could store; anything that lets the two functions work is OK];
 and two functions to interact with that `dict`:
 
 

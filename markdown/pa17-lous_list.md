@@ -166,4 +166,4 @@ The `def`{.python}-lines in the problem writeup will handle the default argument
 
 Because the `+1` indicator is always a single-digit number if present, it can be detected by looking for the `+` (which always has the same index from the end of the string).
 
-Web browsers sometimes try to be too smart for their own good, displaying files in the wrong format. Adding "view-source:" to a URL can help, as for example [view-source:http://cs1110.cs.virginia.edu/files/louslist/BME](view-source:http://cs1110.cs.virginia.edu/files/louslist/BME)
+Web browsers sometimes try to be too smart for their own good, displaying files in the wrong format; for example, many browsers mis-read <http://cs1110.cs.virginia.edu/files/louslist/BME> as being an image file (which it is not) and thus do not show its content. You can get around this by printing the contents of the URL from python, or on most browsers by manually adding "view-source:" to the beginnign of the URL, like "<view-source:cs1110.cs.virginia.edu/files/louslist/BME>"

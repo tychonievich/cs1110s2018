@@ -116,3 +116,9 @@
   files: [/files/003/2018-03-26/expenses_string.py, /files/003/2018-03-26/slides.pdf,
     /files/003/2018-03-26/expenses.py]
   video: /screencasts/2018-03-26-003.webm
+2018-03-28:
+  audio: /screencasts/2018-03-28-003.mp3
+  files: [/files/003/2018-03-28/web_with_for.py, /files/003/2018-03-28/expenses_file2.py,
+    /files/003/2018-03-28/file_with_for.py, /files/003/2018-03-28/expenses_file1.py,
+    /files/003/2018-03-28/basic_files.py, /files/003/2018-03-28/slides.pdf, /files/003/2018-03-28/basic_web.py]
+  video: /screencasts/2018-03-28-003.webm

@@ -165,3 +165,5 @@ The `def`{.python}-lines in the problem writeup will handle the default argument
 `level=3823` and `level=3000` should do the same thing as one another...
 
 Because the `+1` indicator is always a single-digit number if present, it can be detected by looking for the `+` (which always has the same index from the end of the string).
+
+Web browsers sometimes try to be too smart for their own good, displaying files in the wrong format. Adding "view-source:" to a URL can help, as for example <view-source:http://cs1110.cs.virginia.edu/files/louslist/BME>

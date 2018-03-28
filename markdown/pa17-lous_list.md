@@ -127,7 +127,7 @@ If in another file (which you do not submit) you write the following:
 ````python
 import lous_list
 
-print(lous_list.instructors('BME'))
+print(lous_list.instructors('STS'))
 
 print('-'*40)
 
@@ -142,7 +142,7 @@ print(len(lous_list.class_search('CS', False, 3000, not_after=1300)))
 you should get the following output
 
 ````
-['', 'Alexander Klibanov', 'Brian Helmke', 'Craig Meyer', 'Eli Zunder', 'Farzad Hassanzadeh', 'Frederick Epstein', 'George Christ', 'Jason Papin', 'Jeffrey Holmes', 'Jennifer Munson', 'Kevin Janes', 'Mete Civelek', 'Michael Lawrence', 'Richard Price', 'Shayn Peirce-Cottler', 'Steven Caliari', 'Timothy Allen', 'William Guilford', 'William Levy']
+['', 'Andrew Reynolds', 'Anusha Ramesh', 'Benjamin Laugelli', 'Bryn Whiteley', 'Caitlin Wylie', 'Catherine Baritaud', 'David Slutzky', 'Dean Roberts', 'Douglas Muir', 'Garrick Louis', 'James Cheng', 'James Groves', 'Joanne Dugan', 'Kathryn Neeley', 'Kent Wayland', 'Lisa Messeri', 'Peter Norton', 'Rebecca Perry', 'Rider Foley', 'Rosalyn Berne', 'Sean Ferguson', 'Toluwalogo Odumosu', 'W Carlson']
 ----------------------------------------
 ['CS', '3205', '001', 'HCI in Software Development', 'Mary Smith', 'Lecture', '3', 'false', 'true', 'false', 'true', 'false', '1100', '1215', 'Olsson Hall 009', '75', '80']
 ['CS', '3330', '001', 'Computer Architecture', 'Charles Reiss', 'Lecture', '3', 'false', 'true', 'false', 'true', 'false', '1100', '1215', 'Olsson Hall 120', '125', '135']
@@ -166,4 +166,6 @@ The `def`{.python}-lines in the problem writeup will handle the default argument
 
 Because the `+1` indicator is always a single-digit number if present, it can be detected by looking for the `+` (which always has the same index from the end of the string).
 
+<!-- 
 Web browsers sometimes try to be too smart for their own good, displaying files in the wrong format; for example, many browsers mis-read <http://cs1110.cs.virginia.edu/files/louslist/BME> as being an image file (which it is not) and thus do not show its content. You can get around this by printing the contents of the URL from python, or on most browsers by manually adding "view-source:" to the beginning of the URL, like "view-source:cs1110.cs.virginia.edu/files/louslist/BME".
+-->

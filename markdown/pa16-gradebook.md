@@ -103,3 +103,6 @@ There are many ways to set up your `dict`s. For example, you could
 -   Have one `dict` of compiled averages and another of credit counts
 -   Have one `dict` of credit counts and another of accumulated grade points
 -   ...
+
+It should be possible to call `total` multiple times, with or without additional `assignment`s in between, and get the right answer each time.
+

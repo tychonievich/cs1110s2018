@@ -46,7 +46,7 @@ Usage: `camera.draw(thing, *args)`{.python}
 
 `camera.draw(image, x, y)`{.python} draws the provided image centered at the provided coordinates
 
-`camera.draw("Hi", "Arial", 12, "red", x, y)`{.python} draws the text `Hi` in a red 12-point Arial font at x,y
+`camera.draw("Hi", 12, "red", x, y)`{.python} draws the text `Hi` in a red 12-point font at x,y
 
 #### move
 Usage: `camera.move(x, y=None)`{.python}
@@ -282,7 +282,7 @@ Usage: `from_image(x, y, filename_or_url)`{.python}
 Creates a SpriteBox object at the given location from the provided filename or url.
 
 ## from_text
-Usage: `from_text(x, y, text, fontname, fontsize, color, bold=False, italic=False)`{.python}
+Usage: `from_text(x, y, text, fontsize, color, bold=False, italic=False)`{.python}
 
 Creates a SpriteBox object at the given location with the given text as its content.
 
@@ -306,11 +306,6 @@ gamebox.keys_loop(onPress)
 ````
 
 You can *either* use `keys_loop` *or* use `timer_loop`, but not both.
-
-## load_sound
-Usage: `load_sound(url_or_filename)`{.python}
-
-Reads a sound file from a given filename or url.
 
 ## load_sprite_sheet
 Usage: `load_sprite_sheet(url_or_filename, rows, columns)`{.python}

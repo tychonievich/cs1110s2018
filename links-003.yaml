@@ -122,3 +122,8 @@
     /files/003/2018-03-28/file_with_for.py, /files/003/2018-03-28/expenses_file1.py,
     /files/003/2018-03-28/basic_files.py, /files/003/2018-03-28/slides.pdf, /files/003/2018-03-28/basic_web.py]
   video: /screencasts/2018-03-28-003.webm
+2018-03-30:
+  audio: /screencasts/2018-03-30-003.mp3
+  files: [/files/003/2018-03-30/web_with_for.py, /files/003/2018-03-30/web_data_ages.py,
+    /files/003/2018-03-30/slides.pdf, /files/003/2018-03-30/web_data_sex.py]
+  video: /screencasts/2018-03-30-003.webm

@@ -121,3 +121,8 @@
     /files/001/2018-03-28/basic_files.py, /files/001/2018-03-28/expenses_file2.py,
     /files/001/2018-03-28/basic_web.py, /files/001/2018-03-28/expenses_file1.py, /files/001/2018-03-28/vastats_reader.py]
   video: /screencasts/2018-03-28-001.webm
+2018-03-30:
+  audio: /screencasts/2018-03-30-001.mp3
+  files: [/files/001/2018-03-30/most_kids.py, /files/001/2018-03-30/gender_balance.py,
+    /files/001/2018-03-30/vastats_reader.py, /files/001/2018-03-30/slides.pdf]
+  video: /screencasts/2018-03-30-001.webm

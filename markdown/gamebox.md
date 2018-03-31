@@ -3,6 +3,9 @@ title: Help on module gamebox
 ...
 
 
+This page is the full documentation of [`gamebox.py`](files/gamebox.py), extracted from its docstrings.
+Looking for a quick-start guide instead? See the [gamebox sumamry overview](gamebox-summary.html).
+
 # Name
 
 gamebox
@@ -13,9 +16,6 @@ into the public domain.
 
 As a courtesy, Luther would appreciate it if you acknowledged him in any work
 that benefited from this code.
-
-You may download the `gamebox.py` [here](files/gamebox.py).
-A short summary of gamebox use will be posted here later.
 
 # Classes
 

@@ -265,6 +265,8 @@ def calendar(data,l001={},l002={},l003={},l1111={}):
                         name = '<a href="'+k.lower()+'-'+data['assignments'][k]['title']+'.html">' + name + ' ' + data['assignments'][k]['title']+'</a>'
                     elif k.startswith('PA') and type(data['assignments'][k].get('files',None)) is str:
                         name = '<a href="'+ k.lower()+'-'+data['assignments'][k]['files'][:-3]+'.html">' + name + ' '+data['assignments'][k]['files'][:-3]+'</a>'
+                    elif 'writeup' in data['assignments'][k]:
+                        name = '<a href="'+data['assignments'][k]['writeup']+'">' + name +'</a>'
                     today.setdefault('due', []).append(name)
                 else:
                     today.setdefault('other', []).append(k)

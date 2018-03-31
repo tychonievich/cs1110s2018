@@ -248,6 +248,7 @@ assignments:
         group: Project
         weight: 1
         total: 1
+        writeup: project.html
         rubric: {"kind":"percentage"}
         .seed:
             -   {"":{"ratio":1,"comment":"Looks promising"}}
@@ -258,6 +259,7 @@ assignments:
         group: Project
         weight: 1
         total: 1
+        writeup: project.html
         extends: ["Checkpoint 1"]
         rubric: {"kind":"percentage"}
         .seed:
@@ -269,6 +271,7 @@ assignments:
         group: Project
         weight: 48
         total: 48
+        writeup: project.html
         extends: ["Checkpoint 2", "Checkpoint 1"]
         rubric:
             kind: breakdown

@@ -46,7 +46,7 @@ The infinite scrolling example games (all sections had one) might be a good star
 
 You don't need to implement anything we don't ask for (e.g., animation, images, sound, background images, etc), though you may as long as you still implement what we do ask for.
 
-Many questions of the form "how do I do *X*" are answered in [The PyGame Docs](gamebox-summary.html)
+Many questions of the form "how do I do *X*" are answered in [The GameBox Docs](gamebox-summary.html)
 
 If you do a web search for "Python flappybird" you'll find a lot of code that will get 0 points if submitted.
 Use gamebox, in a way similar to our examples from lecture and lab.

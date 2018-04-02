@@ -127,3 +127,7 @@
   files: [/files/003/2018-03-30/web_with_for.py, /files/003/2018-03-30/web_data_ages.py,
     /files/003/2018-03-30/slides.pdf, /files/003/2018-03-30/web_data_sex.py]
   video: /screencasts/2018-03-30-003.webm
+2018-04-02:
+  audio: /screencasts/2018-04-02-003.mp3
+  files: [/files/003/2018-04-02/slides.pdf, /files/003/2018-04-02/e2review.py]
+  video: /screencasts/2018-04-02-003.webm

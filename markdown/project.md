@@ -104,7 +104,7 @@ See [Wikipedia's list of golden-age arcade games](https://en.wikipedia.org/wiki/
 
 # FAQ
 
-Many questions of the form "how do I do *X*" are answered in [The Gamebox Docs](code/gamebox/gamebox.pdf) or [The Gamebox API](gamebox.html).
+Many questions of the form "how do I do *X*" are answered in [The Gamebox Docs](gamebox-summary.html) or [The Gamebox API](gamebox.html).
 Others are added here as they come to our attention.
 
 Why do my fast-moving objects pass through walls?

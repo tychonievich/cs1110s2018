@@ -78,6 +78,7 @@ Timer
 
 Health meter
 :   Have a health meter that changes as you hit enemies/obstacles.
+    It's only a *health* meter if it getting to 0 results in loss of game (or re-spawning at a save point).
 
 Two players simultaneously
 :   Two players who are able to interact with one another within the game.
@@ -85,6 +86,15 @@ Two players simultaneously
 Multiple levels
 :   Make several distinct levels that the player can advance through.
     If you do this, make it clear that there are several levels so that your grader knows to try to reach more than one.
+
+Save points
+:   When the player reaches some milestone, future failures cause the player to respawn at that save point
+    instead of having to start over.
+
+Inter-session progress
+:   Have your game write some information to a file when it closes, and use that to update the next play.
+    For example, you could have a cumulative high-score chart; a "save game" option;
+    or even log what the player does and make "instant replays" or the like.
 
 Something More
 :   Want to add another feature, not listed above, and have it count?

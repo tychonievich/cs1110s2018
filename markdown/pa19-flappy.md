@@ -9,7 +9,9 @@ In a file named `flappybird.py`, implement a [FlappyBird](https://flappybird.me/
 In particular,
 
 -   There should be one kind if user input, a vertical flap action triggered by either a mouse click or the space bar (your choice) 
-    - flap should be flap, not rocket; holding flap should not result in steady upward movement
+    - a flap is a burst of upward speed
+    - rocketing up as long as you hold the key/button is not flapping
+    - teleporting higher on the screen without passing through intermediate locations is not flapping
 -   There should be momentum and gravity (acceleration, not constant-speed motion)
 -   There should be randomly generated scrolling obstacles (pillars) with openings at random heights
     - these should be matched top and bottom, like the original game

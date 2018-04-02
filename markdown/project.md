@@ -79,10 +79,6 @@ Timer
 Health meter
 :   Have a health meter that changes as you hit enemies/obstacles.
 
-Music/Sound effects
-:   Have some good sound design.
-    <!-- 2018: remove music, restrict to sound effects-->
-
 Two players simultaneously
 :   Two players who are able to interact with one another within the game.
 

@@ -69,18 +69,22 @@ Collectibles
     We typically get many "does *X* count as a collectible?" questions.
     Standard collectibles exist in the environment, vanish when you touch them, and give you some benefit from collecting them.
     
-
 Scrolling level
 :   Make the level much larger than the screen (You may need to add a background image to make this more obvious.)
 
 Timer
 :   Have a countdown (or count up) timer for your game.
+    For full points, this needs to make some kind of sense within the context of the game itself.
 
 Health meter
 :   Have a health meter that changes as you hit enemies/obstacles.
 
 Two players simultaneously
 :   Two players who are able to interact with one another within the game.
+
+Multiple levels
+:   Make several distinct levels that the player can advance through.
+    If you do this, make it clear that there are several levels so that your grader knows to try to reach more than one.
 
 Something More
 :   Want to add another feature, not listed above, and have it count?

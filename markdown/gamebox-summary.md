@@ -19,7 +19,7 @@ camera = gamebox.Camera(800, 600)
 
 You can change the 800 and 600 to be the width and height of the window you want to make instead.
 
-The middle will usually create various gameboxes and sounds to be used later. For example:
+The middle will usually create various gameboxes to be used later. For example:
 
 ````python
 # prep work: make the boxes and variables to be used later
@@ -28,6 +28,7 @@ logo = gamebox.from_image(0, 0,
 
 score = 0
 ````
+
 Every PyGame program should end with an event loop. There are a lot of pieces to making these work, so gamebox adds a simpler version:
 
 ````python

@@ -3,6 +3,14 @@ title: "Lab 11: Counting Rooms Again"
 ...
 
 
+# Pairing
+
+You'll (probably) be paired for your final game project in lab today.
+Some TAs might decide to do that the following week instead.
+
+# Lab 2 Flashbach
+
+
 <style> 
 .hidden { display: none; }
 .hide-header { display: block; margin: 0ex -1ex; padding: 0ex 1ex; border-bottom: thin solid black; }

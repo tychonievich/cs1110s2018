@@ -3,6 +3,20 @@ title: "Lab 11: Counting Rooms Again - TA Notes"
 ...
 
 
+# Paring
+
+Explain that the final project will be paired.
+You have full authority to pair students however you wish.
+They can't submit their own pairings; only you can.
+We recommend 
+
+- in lab pairs
+- in-grading-group pairs (possibly by changing grading groups)
+- if you need a group of 3, pick 3 solid students and ask them to do more than other teams do. A trio including 1 or more struggling students tends to go very poorly
+
+Record parings on the [project partner site](https://archimedes.cs.virginia.edu/cs1110/partners.php) on archimedes.
+If needed, also adjust [grading groups](https://archimedes.cs.virginia.edu/cs1110/gradegroup.php) to keep partners in the same grading group.
+
 # Review the Task
 
 Remind the students about lab 2, which had the goal of telling a robot how to count the number of rooms in a grid.

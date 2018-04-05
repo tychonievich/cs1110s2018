@@ -15,8 +15,7 @@ Unlike other assignments,
 
 # Partnering
 
-The process for partnering has not yet been determined.
-For logistical reasons, partners will probably be assigned by TAs with little input from students.
+For logistical reasons, partners will generally be assigned within a single lab section by TAs with little input from students.
 Your partner, once entered by a TA, will show up near the bottom of the submission site under "Project".
 
 <!--
@@ -62,6 +61,7 @@ Animation
 
 Enemies
 :   Have characters that can hinder the player character from accomplishing the goal.
+    For full credit, enemies must move.
 
 Collectibles
 :   Add collectables (i.e. coins) to the level that can be picked up by the character with a counter that appears on the screen.

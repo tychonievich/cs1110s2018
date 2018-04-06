@@ -131,3 +131,10 @@
   audio: /screencasts/2018-04-02-003.mp3
   files: [/files/003/2018-04-02/slides.pdf, /files/003/2018-04-02/e2review.py]
   video: /screencasts/2018-04-02-003.webm
+2018-04-06:
+  audio: /screencasts/2018-04-06-003.mp3
+  files: [/files/003/2018-04-06/slides.pdf, /files/003/2018-04-06/basic_momentum.py,
+    /files/003/2018-04-06/gamebox.py, /files/003/2018-04-06/basic_game.py, /files/003/2018-04-06/basic_keys.py,
+    /files/003/2018-04-06/basic_gravity.py, /files/003/2018-04-06/basic_obstacles.py,
+    /files/003/2018-04-06/basic_jumper.py]
+  video: /screencasts/2018-04-06-003.webm

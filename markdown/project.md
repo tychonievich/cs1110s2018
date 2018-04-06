@@ -52,6 +52,9 @@ Graphics/Images
 Start Screen
 :   Game has a start screen with game name, student names (and IDs), and basic game instructions.
 
+Small Enough Window
+:   Some graders don't have large screens; your game window may not be larger than `gamebox.Camera(800, 600)`{.python} (it may be smaller...)
+
 ## Optional Features
 
 You must include at least four of the following:

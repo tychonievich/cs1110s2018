@@ -16,14 +16,9 @@ Some of you will have conflicts with that exam time. Per university policy,
 
 > Faculty members are not authorized to change th\[e final exam\] schedule. Exceptions may be authorized only by the faculty member's dean's office.
 
-The dean's office has not yet responded to our request for a makeup session, but we anticipate it will most likely be 7--10pm on Wednesday 2 May 2018, in keeping with their responses in previous semesters. Once we know for sure, we will post a form here where you can report conflict and arrange for a makeup time.
+Our approved makeup time is 7--10pm on Wednesday 2 May 2018. To report a conflict and request accomodation at that time, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfM5gG6E1xK1SXkYaaYeUChVqebdeMVfrY1yKXtvX5Ju-oFEw/viewform?usp=sf_link) -- note, you'll need to log in with your @virginia.edu google account.
 
 <!--
-Conflicts with that time will be resolved the preceding day (Wednesday 6 Dec) at 7 pm, location sent via email.
-No permission to take the exam on a different day or from off of UVA grounds will be granted without Deans' office request.
-
-You may report conflicts and request accommodations via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfDcGGIYdkK0a9ZXnMagAF1L39zL8dYyRNVCvXmYEBS7dfrGA/viewform?usp=sf_link).
-
 The deadline for reporting conflicts with the final has passed. If you have not been informed of an alternative arrangement, it is probably too late to get one now as the makeup exam room we were given is not large enough to add more people.
 
 A **TA-led review session** will be held in Chem 402 on Wednesday, 6 December at 2pm.

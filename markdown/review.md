@@ -95,6 +95,7 @@ Spring 2016 |                                  | [s2016e2key.pdf](files/s2016e2k
 Fall 2016   | [f2016e2.pdf](files/f2016e2.pdf) | 
 Spring 2017 | [s2017e2.pdf](files/s2017e2.pdf) | [s2017e2key.txt](files/s2017e2key.txt)
 Fall 2017   | [f2017e2.pdf](files/f2017e2.pdf) | [f2017e2key.html](files/f2017e2key.html)
+Spring 2018 | [s2018e2.pdf](files/s2018e2.pdf) | [s2018e2key.html](files/s2018e2key.html)
 
 
 # Exam 3

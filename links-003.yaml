@@ -138,3 +138,9 @@
     /files/003/2018-04-06/basic_gravity.py, /files/003/2018-04-06/basic_obstacles.py,
     /files/003/2018-04-06/basic_jumper.py]
   video: /screencasts/2018-04-06-003.webm
+2018-04-09:
+  audio: /screencasts/2018-04-09-003.mp3
+  files: [/files/003/2018-04-09/jumper_moving_camera.py, /files/003/2018-04-09/shooting.py,
+    /files/003/2018-04-09/infinite_jumper.py, /files/003/2018-04-09/basic_jumper_with_coins.py,
+    /files/003/2018-04-09/sprite_intro.py, /files/003/2018-04-09/infinite_jumper_game_over.py]
+  video: /screencasts/2018-04-09-003.webm

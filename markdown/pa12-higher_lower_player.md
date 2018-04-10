@@ -40,7 +40,7 @@ Is the number higher, lower, or the same as 25? `higher`
 Is the number higher, lower, or the same as 37? `lower`
 Is the number higher, lower, or the same as 31? `higher`
 Is the number higher, lower, or the same as 34? `lower`
-I lost; what was the answer? 33
+I lost; what was the answer? `33`
 Well played!
 ````
 

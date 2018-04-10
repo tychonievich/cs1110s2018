@@ -20,14 +20,14 @@ You are welcome to look up the Celcius to Fahrenheit formula, but if you do reme
 ## Example 1
 
 ````
-What is the temperature in Celsius? 31
+What is the temperature in Celsius? `31`
 It is 87.8 degrees Fahrenheit
 ````
 
 ## Example 2
 
 ````
-What is the temperature in Celsius? 100
+What is the temperature in Celsius? `100`
 It is 212.0 degrees Fahrenheit
 ````
 

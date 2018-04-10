@@ -38,7 +38,7 @@ An example run of the program might look like:
       MISSPELLED: Boojum
     `You will softly and suddenly vanish away,`
     `And never be met with again!'`
-    `&#65279;`
+    ``
      
 
 

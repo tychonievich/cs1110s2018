@@ -45,7 +45,7 @@ look like an endless stream of pillars when playing the game
 
 The infinite scrolling example games (all sections had one) might be a good starting point.
 
-You don't need to implement anything we don't ask for (e.g., animation, images, sound, background images, etc), though you may as long as you still implement what we do ask for.
+You don't need to implement anything we don't ask for (e.g., animation, images, background images, etc), though you may as long as you still implement what we do ask for.
 
 Many questions of the form "how do I do *X*" are answered in [The GameBox Docs](gamebox-summary.html)
 

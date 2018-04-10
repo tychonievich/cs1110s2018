@@ -23,7 +23,7 @@ Your program should read the list of words from the web only once per run of the
 In addition to functional correctness, some points will be reserved for
 
 1.  having good variable names
-1.  having meaningful docstrings for all functions you write
+1.  having meaningful docstrings for any function you write (no functions are required, but if you create one, add a docstring)
 
 
 # Example Invocations

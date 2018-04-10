@@ -34,12 +34,12 @@ An example run of the program might look like:
 
 ````
 Think of a number between 1 and 100 and I'll guess it.
-How many guesses do I get? 5
-Is the number higher, lower, or the same as 50? lower
-Is the number higher, lower, or the same as 25? higher
-Is the number higher, lower, or the same as 37? lower
-Is the number higher, lower, or the same as 31? higher
-Is the number higher, lower, or the same as 34? lower
+How many guesses do I get? `5`
+Is the number higher, lower, or the same as 50? `lower`
+Is the number higher, lower, or the same as 25? `higher`
+Is the number higher, lower, or the same as 37? `lower`
+Is the number higher, lower, or the same as 31? `higher`
+Is the number higher, lower, or the same as 34? `lower`
 I lost; what was the answer? 33
 Well played!
 ````
@@ -48,14 +48,14 @@ Another run might look like:
 
 ````
 Think of a number between 1 and 100 and I'll guess it.
-How many guesses do I get? 8
-Is the number higher, lower, or the same as 50? lower
-Is the number higher, lower, or the same as 25? higher
-Is the number higher, lower, or the same as 37? lower
-Is the number higher, lower, or the same as 31? higher
-Is the number higher, lower, or the same as 34? lower
-Is the number higher, lower, or the same as 32? higher
-Is the number higher, lower, or the same as 33? lower
+How many guesses do I get? `8
+Is the number higher, lower, or the same as 50? `lower`
+Is the number higher, lower, or the same as 25? `higher`
+Is the number higher, lower, or the same as 37? `lower`
+Is the number higher, lower, or the same as 31? `higher`
+Is the number higher, lower, or the same as 34? `lower`
+Is the number higher, lower, or the same as 32? `higher`
+Is the number higher, lower, or the same as 33? `lower`
 Wait; how can it be both higher than 32 and lower than 33?
 ````
 
@@ -63,9 +63,9 @@ Another run might look like:
 
 ````
 Think of a number between 1 and 100 and I'll guess it.
-How many guesses do I get? 1
-Is the number higher, lower, or the same as 50? higher
-I lost; what was the answer? 20
+How many guesses do I get? `1`
+Is the number higher, lower, or the same as 50? `higher`
+I lost; what was the answer? `20`
 That can't be; you said it was higher than 50!
 ````
 
@@ -74,8 +74,8 @@ Another run might look like:
 
 ````
 Think of a number between 1 and 100 and I'll guess it.
-How many guesses do I get? 3
-Is the number higher, lower, or the same as 50? same
+How many guesses do I get? `3`
+Is the number higher, lower, or the same as 50? `same`
 I won!
 ````
 

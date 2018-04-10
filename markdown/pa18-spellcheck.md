@@ -39,7 +39,6 @@ An example run of the program might look like:
     `You will softly and suddenly vanish away,`
     `And never be met with again!'`
     ``
-     
 
 
 # Thought Question

@@ -72,4 +72,4 @@ pre { padding: 1ex; margin: 1ex 0ex; min-height: 1em; box-shadow: 0 0.0625ex 0.1
 code { padding: 0.125ex; }
 pre code { border: none; }
 .floater img, figure img { max-width: 100%; }
-code.gap { background: #ffffff; border: 0.125ex solid #e3e3e3; border-radius: 0.5ex; padding:0ex 0.25ex; }
+code.gap { background: #ffffff; border: 0.125ex solid #e3e3e3; border-radius: 0.5ex; padding:0.125ex 0.25ex; }

@@ -31,13 +31,13 @@ In addition to functional correctness, some points will be reserved for
 An example run of the program might look like:
 
     Type text; enter a blank line to end.
-    "'But oh, beamish nephew, beware of the day,
+    `"'But oh, beamish nephew, beware of the day,`
       MISSPELLED: beamish
-    If your Snark be a Boojum!  For then
+    `If your Snark be a Boojum!  For then`
       MISSPELLED: Snark
       MISSPELLED: Boojum
-    You will softly and suddenly vanish away,
-    And never be met with again!'
+    `You will softly and suddenly vanish away,`
+    `And never be met with again!'`
      
 
 

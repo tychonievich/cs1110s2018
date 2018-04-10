@@ -19,6 +19,7 @@ In particular,
 -   Score should be based on how long the player lasts before the game ends
 -   When the game ends, the score should be displayed visually in the game screen
     - displaying it continually is OK, as long as it still shows up in the end
+-   The window should be no more than 800×600 pixels, in order to fit on all grader's screens
 
 We won't be able to perform automated testing for this submission (we'll have course staff run it to grade it), but you should be able to tell if it is working on your own by playing the game you've created.
 

@@ -48,7 +48,7 @@ Another run might look like:
 
 ````
 Think of a number between 1 and 100 and I'll guess it.
-How many guesses do I get? `8
+How many guesses do I get? `8`
 Is the number higher, lower, or the same as 50? `lower`
 Is the number higher, lower, or the same as 25? `higher`
 Is the number higher, lower, or the same as 37? `lower`

@@ -41,9 +41,9 @@ Looking for more practice?  Feel free to try (but not submit) the following:
 -   Write a program that does a multi-input conversation, such as
     
     ````
-    What is the R-value of your insulation? 30
-    How large is your wall, in square feet? 2400
-    What is the outside temperature, in degrees Fahrenheit? 48
+    What is the R-value of your insulation? `30`
+    How large is your wall, in square feet? `2400`
+    What is the outside temperature, in degrees Fahrenheit? `48`
     Your wall loses heat at about 563 watts
     ````
 

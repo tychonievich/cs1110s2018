@@ -63,8 +63,8 @@ For example, the computer is supposed to play as follows:
 
 1.      The Game of Nim
 
-        The number of marbles in the pile: 7
-        Who will start? (p or c): c
+        The number of marbles in the pile: `7`
+        Who will start? (p or c): `c`
     
     The computer sees a pile with 7 marbles.
     It wants to take enough marbles so that the remainder is one less than a power of 2.
@@ -77,7 +77,7 @@ For example, the computer is supposed to play as follows:
 
     Let's assume the player also takes 1 marble.
 
-        How many marbles to you want to take (1-3): 1
+        How many marbles to you want to take (1-3): `1`
 
 2.      The pile has 5 marbles in it.
     
@@ -88,7 +88,7 @@ For example, the computer is supposed to play as follows:
 
         The computer takes 2 marbles.
         The pile has 3 marbles in it.
-        How many marbles to you want to take (1-1): 1
+        How many marbles to you want to take (1-1): `1`
 
 3.      The pile has 2 marbles in it.
 
@@ -99,7 +99,7 @@ For example, the computer is supposed to play as follows:
 
         The computer takes 1 marbles.
         The pile has 1 marbles in it.
-        How many marbles to you want to take (1-1): 1
+        How many marbles to you want to take (1-1): `1`
         The computer wins!
 
 ### Your Goal

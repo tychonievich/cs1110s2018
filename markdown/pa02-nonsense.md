@@ -16,7 +16,7 @@ When run, it should
 ## Example 1
 
 ````
-What's your favorite word? elbow
+What's your favorite word? `elbow`
 elbow elbow elbow elbow elbow elbow elbow elbow elbow elbow elbow elbow 
 "elbow" doesn't even sound like a word anymore.
 ````
@@ -24,7 +24,7 @@ elbow elbow elbow elbow elbow elbow elbow elbow elbow elbow elbow elbow
 ## Example 2
 
 ````
-What's your favorite word? prandial
+What's your favorite word? `prandial`
 prandial prandial prandial prandial prandial prandial prandial prandial prandial prandial prandial prandial 
 "prandial" doesn't even sound like a word anymore.
 ````

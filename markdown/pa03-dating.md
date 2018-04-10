@@ -24,14 +24,14 @@ It should always answer with integer ages.
 ## Example 1
 
 ````
-How old are you? 17
+How old are you? `17`
 You can date people between 15 and 21 years old
 ````
 
 ## Example 2
 
 ````
-How old are you? 70
+How old are you? `70`
 You can date people between 42 and 127 years old
 ````
 

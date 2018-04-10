@@ -26,30 +26,30 @@ In addition to functional correctness, some points will be reserved for
 An example run of the program might look like:
 
 ````
-What should the answer be? 19
-How many guesses? 9
-Guess a number: 9
+What should the answer be? `19`
+How many guesses? `9`
+Guess a number: `9`
 The number is higher than that.
-Guess a number: 40
+Guess a number: `40`
 The number is lower than that.
-Guess a number: 19
+Guess a number: `19`
 You win!
 ````
 
 Another run might look like:
 
 ````
-What should the answer be? -1
-How many guesses? 5
-Guess a number: 5
+What should the answer be? `-1`
+How many guesses? `5`
+Guess a number: `5`
 The number is higher than that.
-Guess a number: 100
+Guess a number: `100`
 The number is lower than that.
-Guess a number: 50
+Guess a number: `50`
 The number is lower than that.
-Guess a number: 25
+Guess a number: `25`
 The number is lower than that.
-Guess a number: 12
+Guess a number: `12`
 You lose; the number was 7.
 ````
 

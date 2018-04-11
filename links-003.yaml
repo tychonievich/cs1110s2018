@@ -144,3 +144,9 @@
     /files/003/2018-04-09/infinite_jumper.py, /files/003/2018-04-09/basic_jumper_with_coins.py,
     /files/003/2018-04-09/sprite_intro.py, /files/003/2018-04-09/infinite_jumper_game_over.py]
   video: /screencasts/2018-04-09-003.webm
+2018-04-11:
+  audio: /screencasts/2018-04-11-003.mp3
+  files: [/files/003/2018-04-11/basic_game.py, /files/003/2018-04-11/two_levels.py,
+    /files/003/2018-04-11/infinite_jumper_game_over_bots.py, /files/003/2018-04-11/carry_stuff.py,
+    /files/003/2018-04-11/slides.pdf]
+  video: /screencasts/2018-04-11-003.webm

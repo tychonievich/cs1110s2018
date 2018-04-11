@@ -30,15 +30,17 @@ In addition to functional correctness, some points will be reserved for
 
 An example run of the program might look like:
 
-    Type text; enter a blank line to end.
-    `"'But oh, beamish nephew, beware of the day,`
-      MISSPELLED: beamish
-    `If your Snark be a Boojum!  For then`
-      MISSPELLED: Snark
-      MISSPELLED: Boojum
-    `You will softly and suddenly vanish away,`
-    `And never be met with again!'`
-    ``
+````
+Type text; enter a blank line to end.
+`"'But oh, beamish nephew, beware of the day,`
+  MISSPELLED: beamish
+`If your Snark be a Boojum!  For then`
+  MISSPELLED: Snark
+  MISSPELLED: Boojum
+`You will softly and suddenly vanish away,`
+`And never be met with again!'`
+``
+````
 
 Note: the above example have 5 presses of the enter key: one after `day,`, one after `then`, one after `away,`, one after `again!'`, and one on a blank line at the end. Copy-paste may make this look odd because it will show multiple lines at once.
 
@@ -74,3 +76,16 @@ Can't figure out what case you are missing? Try the following:
 -   Incorrectly spelled words at the beginning, middle, and end of the first, middle, and last line of input
 
 Confused how to read the page only once?  Try reading the page into a list of words before you do any spellchecking. You'll probably want to normalize the case of them at the time you read them, too.
+
+Code taking a long time to run and timing out when submitted? Make sure you are
+
+-   Reading the page of words only once
+-   When reading the page, put them directly into a list with no extra checking.
+    In particular, doing something like
+    
+    ````python
+    if new_word not in list_of_words:
+        add new_word to list_of_words
+    ````
+    
+    can take a *very* long time to run, so don't do that.

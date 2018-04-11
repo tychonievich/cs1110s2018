@@ -90,16 +90,6 @@ for match in regexs.twonum.finditer(text):
         print('  match1:', '3' in match.groups(), '4' in match.groups())
     if match.group(0) == '-3.14159265 1110':
         print('  match2:', '-3.14159265' in match.groups(), '1110' in match.groups())
-
-ln = full_match(regexs.likely_name, text)
-print('likely_name:',
-    'Thomas Jefferson' in ln,
-    'Edmund Jennings Randolph' in ln,
-    'J. Pierpont Finch' in ln,
-    'T. Jefferson' in ln,
-    'T Jefferson' not in ln,
-    'Thomas J.' not in ln,
-    "Flannery O'Connor" not in ln)
 ````
 
 then that file, when run, should print all `True`{.python}:
@@ -110,7 +100,6 @@ quotation: True True True True
 twonum: True True True True True True
   match1: True True
   match2: True True
-likely_name: True True True True True True True
 ````
 
 

@@ -151,13 +151,19 @@ We will also check your progress with two intermediate checkpoints, each due mid
 
 Should be a python file, named `game.py`, containing comments describing your game idea and how you will fill the optional requirements.  We also encourage starting the game code in that file as well.
 
+This checkpoint is due at 5:00 AM Wednesday morning, and late submissions are *not* accepted. If you miss the checkpoint and would still like feedback, contact your grader in lab (or class for 1111).
+
 ## Checkpoint 2
 
 Should be a the basics of a working game, in `game.py`, possibly with a few "it crashes if you do *X*"-type bugs or missing features.
 
+This checkpoint is due at 5:00 AM Wednesday morning, and late submissions are *not* accepted. If you miss the checkpoint and would still like feedback, contact your grader in lab (or class for 1111).
+
 ## Final Submission
 
 Should be the entire game.
+
+This submission is due at 23:59 PM Tuesday night, and per university policy late submissions are *not* accepted.
 
 ## Uploading files beyond `game.py`
 

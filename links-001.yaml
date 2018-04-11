@@ -144,3 +144,9 @@
     /files/001/2018-04-09/type_something.py, /files/001/2018-04-09/infinite_jumping_end.py,
     /files/001/2018-04-09/double_jump.py, /files/001/2018-04-09/infinite_jumping.py]
   video: /screencasts/2018-04-09-001.webm
+2018-04-11:
+  audio: /screencasts/2018-04-11-001.mp3
+  files: [/files/001/2018-04-11/basic_carry.py, /files/001/2018-04-11/pause_unpause.py,
+    /files/001/2018-04-11/slides.pdf, /files/001/2018-04-11/pair_collection_things.py,
+    /files/001/2018-04-11/sprite_sheets.py]
+  video: /screencasts/2018-04-11-001.webm

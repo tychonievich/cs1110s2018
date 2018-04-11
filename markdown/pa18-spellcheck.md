@@ -40,7 +40,7 @@ An example run of the program might look like:
     `And never be met with again!'`
     ``
 
-Note: the above example have 5 presses of the enter key: one after `day,`, one after `then`, one after `away,`, one after `again!'`, and one on a blank line.
+Note: the above example have 5 presses of the enter key: one after `day,`, one after `then`, one after `away,`, one after `again!'`, and one on a blank line at the end. Copy-paste may make this look odd because it will show multiple lines at once.
 
 # Thought Question
 

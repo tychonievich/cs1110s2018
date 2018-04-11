@@ -244,7 +244,7 @@ assignments:
 
 
     Checkpoint 1:
-        due: 2018-04-18
+        due: 2018-04-18 05:00:00
         group: Project
         weight: 1
         total: 1
@@ -255,7 +255,7 @@ assignments:
             -   {"":{"ratio":0.5,"comment":"Checkpoint fails to meet requirements"}}
             -   {"":{"ratio":0.0,"comment":"No submission"}}
     Checkpoint 2:
-        due: 2018-04-25
+        due: 2018-04-25 05:00:00
         group: Project
         weight: 1
         total: 1
@@ -267,7 +267,7 @@ assignments:
             -   {"":{"ratio":0.5,"comment":"Significantly behind where you ought to be"}}
             -   {"":{"ratio":0.0,"comment":"No submission"}}
     Project:
-        due: 2018-05-01
+        due: 2018-05-01 23:59:59
         group: Project
         weight: 48
         total: 48

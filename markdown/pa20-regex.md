@@ -36,15 +36,6 @@ as follows:
     `3.4.5, 1`, `1   2`, and `3 - 4` should not match.
     
 
--   `likely_name =`{.python} a regular expression that matches one common full name pattern:
-    two or three consecutive capitalized runs of letters, separated by spaces.
-    A capital letter and a period can serve as a name except in the last position.
-    
-    `Thomas Jefferson` should match, as should `Edmund Jennings Randolph`, `J. Pierpont Finch`, and `T. Jefferson`
-    
-    `T Jefferson`, `Thomas J.`, and `Flannery O'Connor` should not match.
-    
-
 # Testing your code
 
 When you run `regexs.py`, nothing should happen.

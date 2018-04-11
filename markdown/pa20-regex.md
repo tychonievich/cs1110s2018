@@ -13,13 +13,14 @@ Sub-parts of it might (e.g., `t.j` may match), but `t.j.` won't.
 Write a python file called `regexs.py` that defines several variables containing compiled regular expressions,
 as follows:
 
--   `nospace =`{.python} a regular expression that matches one or more non-whitespace characters.
+-   `nospace =`{.python} a regular expression that matches one or more non-whitespace characters. There is a relatively straightforward solution that is 12 characters long.
 
     `CS1110-001/smile` should match, as should `!`
     
     `hi there` should not match, nor should the empty string.
 
 -   `quotation =`{.python} a regular expression that matches text beginning and ending with a `"`, with no internal `"`, where the first and last character inside the quotes are not spaces.
+    Our reference solution is 32 characters long.
     
     `"hi there"` should match
     
@@ -28,6 +29,7 @@ as follows:
 -   `twonum =`{.python} a regular expression that matches pairs of numbers, separated by a space, comma, or both (with the space after the comma if both: `, `but not ` ,`).
     Accept both numbers with and without decimal places, and allow an optional preceding `-` on each number.
     If there is a decimal place, there must be at least one digit on each side of it.
+    Our reference solution is 50 characters long.
     
     Additionally, each of the two numbers (with the `-` if present) should be a group after a match.
     
@@ -104,6 +106,13 @@ twonum: True True True True True True
 
 
 # Troubleshooting
+
+For `nospace`, negative character classes (i.e., beginning `[^`) are your friend.
+
+For `quotation`, you'll probably include most of `nospace` twice (for the first and last non-white character), but also exclude quotes `"`.
+Also, you might want to handle the special case of a quote with zero or one non-white characters inside specially.
+
+For `twonum`, you probably want to get a single number matcher working, and a gap (comma, or, space, or comma space) working, and then combine them into "number gap number".
 
 "Whitespace characters" includes space ` `, but also newlines `\n` and `\r` and tabs `\t`.
 

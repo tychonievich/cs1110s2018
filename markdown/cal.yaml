@@ -233,6 +233,7 @@ assignments:
         due: 2018-04-11 10:00:00
     PA19:
         files: ["flappybird.py", "*.jpg", "*.png"]
+        writeup: flappy.html
         open: 2018-04-05
         due: 2018-04-16 10:00:00
     PA20:

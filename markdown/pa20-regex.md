@@ -114,7 +114,7 @@ Also, you might want to handle the special case of a quote with zero or one non-
 
 For `twonum`, you probably want to get a single number matcher working, and a gap (comma, or, space, or comma space) working, and then combine them into "number gap number".
 
-"Whitespace characters" includes space ` `, but also newlines `\n` and `\r` and tabs `\t`.
+"Whitespace characters" includes space ` `, but also newlines `\n` and `\r` and tabs `\t`.
 
 The "should be in a group" constraint can be met by adding parentheses...
 

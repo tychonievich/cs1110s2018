@@ -156,9 +156,11 @@ assignments:
         due: 2018-04-05
     Lab12:
         title: pong
+        files: 'pong.py'
         due: 2018-04-12
     Lab13:
         title: email
+        files: 'pong.py'
         due: 2018-04-19
     Lab14:
         title: review

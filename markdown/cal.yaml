@@ -232,7 +232,7 @@ assignments:
         open: 2018-04-05
         due: 2018-04-11 10:00:00
     PA19:
-        files: ['flappy.py', '*.png', '*.jpg']
+        files: flappy.py
         open: 2018-04-05
         due: 2018-04-16 10:00:00
     PA20:

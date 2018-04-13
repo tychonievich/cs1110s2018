@@ -150,3 +150,7 @@
     /files/001/2018-04-11/slides.pdf, /files/001/2018-04-11/pair_collection_things.py,
     /files/001/2018-04-11/sprite_sheets.py]
   video: /screencasts/2018-04-11-001.webm
+2018-04-13:
+  audio: /screencasts/2018-04-13-001.mp3
+  files: [/files/001/2018-04-13/slides.pdf]
+  video: /screencasts/2018-04-13-001.webm

@@ -16,7 +16,7 @@ In particular,
 -   There should be scrolling obstacles (pillars) with openings at random heights
     - these should be matched top and bottom, like the original game
     - every opening should be on screen and large enough to fly through
-    - it should not be possible to fly past all the pillars; they should go on as far as the bird flies
+    - no matter how long the user lasts, there should always be more pillars to pass through
 -   Touching a pillar or exiting the screen should end the game
 -   Score should be based on how long the player lasts before the game ends
 -   When the game ends, the score should be displayed visually in the game screen

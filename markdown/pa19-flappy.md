@@ -13,9 +13,10 @@ In particular,
     - rocketing up as long as you hold the key/button is not flapping
     - teleporting higher on the screen without passing through intermediate locations is not flapping
 -   There should be momentum and gravity (acceleration, not constant-speed motion)
--   There should be randomly generated scrolling obstacles (pillars) with openings at random heights
+-   There should be scrolling obstacles (pillars) with openings at random heights
     - these should be matched top and bottom, like the original game
     - every opening should be on screen and large enough to fly through
+    - it should not be possible to fly past all the pillars; they should go on as far as the bird flies
 -   Touching a pillar or exiting the screen should end the game
 -   Score should be based on how long the player lasts before the game ends
 -   When the game ends, the score should be displayed visually in the game screen

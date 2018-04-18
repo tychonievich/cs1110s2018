@@ -138,6 +138,10 @@ I'm getting an error opening images
     If the last line of the error contains the text "SSL: CERTIFICATE_VERIFY_FAILED" and you are on OS X, this means you need to tell Python how to access encrypted webpages.
     Go to "Applications/Python\ 3.6/Install\ Certificates.command" on your hard-drive and double-click on it: a window should pop up and install the necessary certificates.
     
+    If you get an error message that says "No video mode has been set", you need to create the `gamebox.Camera(w,h)`{.python} *before* you use `gamebox.from_image` or `gamebox.load_sprite_sheet`.
+    
+    If you have either `/` or `\\` in your file path, and it is not a URL beginning either `http://` or `https://`, then you need to instead move the file into your project directory (and uploaed it when you submit your game) and use a file path without slashes instead.
+    
     If you have another error, check Piazza and if it is not described there, add a question so we can update this FAQ.
 
 # Submission

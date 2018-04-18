@@ -130,7 +130,7 @@ Sprite sheets have a grid of frames and can be turned into a list like so:
 
 ````python
 # load a grid of 3 rows and 4 columns as a list of 12 images
-sheet = load_sprite_sheet(
+sheet = gamebox.load_sprite_sheet(
   "https://upload.wikimedia.org/wikipedia/commons/b/be/SpriteSheet.png",
   3, 4)
 

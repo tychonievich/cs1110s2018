@@ -125,7 +125,17 @@ Why do my fast-moving objects pass through walls?
 
     The simplest solution is making fatter obstacles (or fatter objects; if an object cannot move more than `min(obj.width, obj.height) / 2` pixels per frame, it cannot have this problem)
     
-    A fancier three-part solution is to (a) increase the ticks per frame by a factor of $n$, (b) reduce the speeds by a factor of $n$, and (c) only draw and display once every $n$ frames.  Parts (a) and (b) solve the problem, part (c) keeps the solution from over-taxing your computer.
+    A fancier solution is to use sub-frame physics. Essentially, your ticks function would then be something like
+    
+    ````
+    the key handling code
+    
+    n = small integer
+    for i in range(n):
+        the moving and collisions code but with 1/nth speed
+
+    the drawing code
+    ````
     
     The most robust solution is to track which side of each obstacle you were last frame and which side this frame and if that changes, do something about it; doing this correctly is not simple, but the `overlap` method of boxes can help if you want to try.
 
@@ -140,9 +150,12 @@ I'm getting an error opening images
     
     If you get an error message that says "No video mode has been set", you need to create the `gamebox.Camera(w,h)`{.python} *before* you use `gamebox.from_image` or `gamebox.load_sprite_sheet`.
     
-    If you have either `/` or `\\` in your file path, and it is not a URL beginning either `http://` or `https://`, then you need to instead move the file into your project directory (and uploaed it when you submit your game) and use a file path without slashes instead.
+    If you have either `/` or `\\` in your file path, and it is not a URL beginning either `http://` or `https://`, then you need to instead move the file into your project directory (and uploaded it when you submit your game) and use a file path without slashes instead.
     
     If you have another error, check Piazza and if it is not described there, add a question so we can update this FAQ.
+
+Can I use `robot.py` from Lab as part of my game?
+:   No.
 
 # Submission
 

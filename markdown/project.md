@@ -35,7 +35,7 @@ We will also ask for each student to submit a partner evaluation near the end of
 
 # Designing your game
 
-Each game is expected to be unique; we do not tell you what to implement.
+We expect each partnership to pick their own game to implement; we do not tell you what to create.
 However, we do provide some guidelines to keep the scope appropriate:
 
 ## Required Features

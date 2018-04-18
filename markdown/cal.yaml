@@ -78,7 +78,7 @@ reading:
     '`dict`': [§13]
     Reading: [§16.2, §27.3, '[Wikpedia](https://en.wikipedia.org/wiki/Delimiter-separated_values)']
     '`gamebox`': ['[gamebox summary](gamebox-summary.html)']
-    RegEx: [§25]
+    RegEx: [§25, '[on designing RegExs](re-tips.html)']
     Exceptions: [§17]
     Writing: [§16.3]
     

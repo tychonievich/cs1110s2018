@@ -179,7 +179,7 @@ Next, we might have zero or more characters within the string
 In-string characters can be almost anything, but `\\` and `"` are special and new-lines cannot appear at all.
 As usual when some are special we'll use a | to handle the main cases:
 
-    "([^\\\\"\n]|)*
+    "([^\\\\"\\n]|)*
 
 
 which updates our example inputs to
@@ -201,7 +201,7 @@ Since `"` should end the string, we'll start with the `\\`.
 It's fine to see `\\` in a string, but when we encounter a `\\` the next character could be anything (even a `"` or new-line) without ending the string.
 That means we want `\\.`: back-slash anything.
 
-    "([^\\\\"\n]|\\.)*
+    "([^\\\\"\\n]|\\\\.)*
 
 which updates our example inputs to
 

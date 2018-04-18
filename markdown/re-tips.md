@@ -199,9 +199,9 @@ Our examples are now waiting for a `\\` or ` `"`.
 Since `"` should end the string, we'll start with the `\\`.
 
 It's fine to see `\\` in a string, but when we encounter a `\\` the next character could be anything (even a `"` or new-line) without ending the string.
-That means we want `\\.`: back-slash anything.
+That means we want `\\\\.`: back-slash anything.
 
-    "([^\\\\"\\n]|\\.)*
+    "([^\\\\"\\n]|\\\\.)*
 
 which updates our example inputs to
 
@@ -218,7 +218,7 @@ which updates our example inputs to
 
 The good examples now all end in a `"`:
 
-    "([^\\\\"\\n]|\\.)*"
+    "([^\\\\"\\n]|\\\\.)*"
 
 which updates our example inputs to
 

@@ -218,7 +218,7 @@ which updates our example inputs to
 
 The good examples now all end in a `"`:
 
-    "([^\\\\"\n]|\\.)*"
+    "([^\\\\"\\n]|\\.)*"
 
 which updates our example inputs to
 

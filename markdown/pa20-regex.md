@@ -1,5 +1,5 @@
 ---
-title: "PA 20: regexs.py"
+title: "PA 20: regex.py"
 ...
 
 # What we mean by "match"
@@ -10,7 +10,7 @@ Sub-parts of it might (e.g., `t.j` may match), but `t.j.` won't.
 
 # Task
 
-Write a python file called `regexs.py` that defines several variables containing compiled regular expressions,
+Write a python file called `regex.py` that defines several variables containing compiled regular expressions,
 as follows:
 
 -   `nospace =`{.python} a regular expression that matches one or more non-whitespace characters. There is a relatively straightforward solution that is 12 characters long.
@@ -40,13 +40,13 @@ as follows:
 
 # Testing your code
 
-When you run `regexs.py`, nothing should happen.
+When you run `regex.py`, nothing should happen.
 It defined variables, it does not define functions or run anything.
 
 If in another file you enter the following
 
 ````python
-import regexs
+import regex
 
 text = '''
 CS1110-001/smile ! hi there
@@ -63,21 +63,21 @@ def full_match(regex, text):
         ans.append(match.group(0))
     return ans
 
-ns = full_match(regexs.nospace, text)
+ns = full_match(regex.nospace, text)
 print('nospace:',
     'CS1110-001/smile' in ns,
     '!' in ns,
     'hi there' not in ns,
     '' not in ns)
 
-q = full_match(regexs.quotation, text)
+q = full_match(regex.quotation, text)
 print('quotation:',
     '"hi there"' in q,
     '" hi there"' not in q,
     '"hi there "' not in q,
     '"I said "hi" just now"' not in q)
 
-tn = full_match(regexs.twonum, text)
+tn = full_match(regex.twonum, text)
 
 print('twonum:',
     '3,4' in tn,
@@ -87,7 +87,7 @@ print('twonum:',
     '1   2' not in tn,
     '3 - 4' not in tn)
 
-for match in regexs.twonum.finditer(text):
+for match in regex.twonum.finditer(text):
     if match.group(0) == '3,4':
         print('  match1:', '3' in match.groups(), '4' in match.groups())
     if match.group(0) == '-3.14159265 1110':
@@ -118,4 +118,4 @@ For `twonum`, you probably want to get a single number matcher working, and a ga
 
 The "should be in a group" constraint can be met by adding parentheses...
 
-[pythex](https://pythex.org/) is your friend.  If you are not sure what your regexs are doing, try playing with them there.
+[pythex](https://pythex.org/) is your friend.  If you are not sure what your regex are doing, try playing with them there.

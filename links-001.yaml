@@ -162,3 +162,7 @@
   audio: /screencasts/2018-04-18-001.mp3
   files: [/files/001/2018-04-18/re_practice.py, /files/001/2018-04-18/slides.pdf]
   video: /screencasts/2018-04-18-001.webm
+2018-04-20:
+  audio: /screencasts/2018-04-20-001.mp3
+  files: [/files/001/2018-04-20/slides.pdf, /files/001/2018-04-20/real_ll.py, /files/001/2018-04-20/weather_report.py]
+  video: /screencasts/2018-04-20-001.webm

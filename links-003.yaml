@@ -166,3 +166,9 @@
   audio: /screencasts/2018-04-20-003.mp3
   files: [/files/003/2018-04-20/slides.pdf, /files/003/2018-04-20/real_ll.py, /files/003/2018-04-20/the_weather.py]
   video: /screencasts/2018-04-20-003.webm
+2018-04-23:
+  audio: /screencasts/2018-04-23-003.mp3
+  files: [/files/003/2018-04-23/using_raise.py, /files/003/2018-04-23/use_try.py,
+    /files/003/2018-04-23/slides.pdf, /files/003/2018-04-23/distant_exceptions.py,
+    /files/003/2018-04-23/except_or_special.py, /files/003/2018-04-23/basic_exceptions.py]
+  video: /screencasts/2018-04-23-003.webm

@@ -166,3 +166,10 @@
   audio: /screencasts/2018-04-20-001.mp3
   files: [/files/001/2018-04-20/slides.pdf, /files/001/2018-04-20/real_ll.py, /files/001/2018-04-20/weather_report.py]
   video: /screencasts/2018-04-20-001.webm
+2018-04-23:
+  audio: /screencasts/2018-04-23-001.mp3
+  files: [/files/001/2018-04-23/using_finally.py, /files/001/2018-04-23/except_in_functions.py,
+    /files/001/2018-04-23/basic_exceptions.py, /files/001/2018-04-23/using_raise.py,
+    /files/001/2018-04-23/mandatory_exception.py, /files/001/2018-04-23/selective_exception.py,
+    /files/001/2018-04-23/slides.pdf]
+  video: /screencasts/2018-04-23-001.webm

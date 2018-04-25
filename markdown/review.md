@@ -114,8 +114,7 @@ Spring 2018 | [s2018e2.pdf](files/s2018e2.pdf) | [s2018e2key.html](files/s2018e2
     -   We won't require you to remember the name of any of the `pygame` or `gamebox` functions,
         but you will need to know how to use them and what they do 
 -   `import re`{.python}
-    -   `re.compile(r'...')`{.python}, including the use of `[]`, `()`, `+`, `*`, and `?`
-    -   `compiled_re.sub(replacement, text)`{.python}, including the use of `\1`
+    -   `re.compile(r'...')`{.python}, including the use of `.`, `[]`, `()`, `+`, `*`, and `?`
     -   `compiled_re.search(text)`{.python}
     -   `compiled_re.finditer(text)`{.python}
     -   `match.group()`{.python}

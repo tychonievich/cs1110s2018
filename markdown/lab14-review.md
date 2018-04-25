@@ -27,7 +27,9 @@ One (1) member of each team should go to the proper link for your lab room:
 >
 > [MEC 213](https://stardock.cs.virginia.edu/mecquiz/)
 >
-> [Rice 130](https://stardock.cs.virginia.edu/ricequiz/)
+> Normally Rice 130 but today in
+> [Olsson 005](https://stardock.cs.virginia.edu/ricequiz/)
+> or [Olsson 009](https://stardock.cs.virginia.edu/olsquiz/)
 
 # Game project
 

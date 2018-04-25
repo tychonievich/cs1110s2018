@@ -173,3 +173,9 @@
     /files/001/2018-04-23/mandatory_exception.py, /files/001/2018-04-23/selective_exception.py,
     /files/001/2018-04-23/slides.pdf]
   video: /screencasts/2018-04-23-001.webm
+2018-04-25:
+  audio: /screencasts/2018-04-25-001.mp3
+  files: [/files/001/2018-04-25/name.txt, /files/001/2018-04-25/slides.pdf, /files/001/2018-04-25/high_scores.py,
+    /files/001/2018-04-25/f.txt, /files/001/2018-04-25/write1.py, /files/001/2018-04-25/write3.py,
+    /files/001/2018-04-25/write2.py, /files/001/2018-04-25/remember_me.py]
+  video: /screencasts/2018-04-25-001.webm

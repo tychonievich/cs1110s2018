@@ -10,12 +10,14 @@ To subscribe to the above calendar, add <http://cs1110.cs.virginia.edu/cal.ics> 
 
 Per <a href="http://www.virginia.edu/registrar/exams.html#1182">the registrar</a>, all sections of 1110 and 1111 will have their final exam at **7--10 pm on Thursday, 3 May 2018**. These will be in:
 
-Section     Exam location       Notes
------------ ------------------- --------------
-1110-001    Wilson 402          
+Section     Exam location             
+----------- --------------------------
+1110-001    Wilson 301 or Wilson 402\*
 1110-002    Olson 120           
-1110-003    Wilson 301          Wilson 301 is too small, so we'll have some students move to Wilson 402 next door.
-1111-001    Thorton E303        
+1110-003    Wilson 301 or Wilson 402\*
+1111-001    Thorton E303
+
+\* Sections 001 and 003: go to Wilson 301 if the digit in your computing ID is a 3, 6, or 8; go to Wilson 402 if it is a different digit. Sorry about this; they didn't give us the right sized rooms...
 
 7pm exams in large rooms tend to have **heating** problems, fluctuating between too cold and too warm over the course of the exam. Dress in layers.
 
@@ -30,3 +32,5 @@ The deadline for reporting conflicts with the final has passed. If you have not 
 
 A **TA-led review session** will be held in Chem 402 on Wednesday, 6 December at 2pm.
 -->
+
+A **TA-led review session** will be held in Chem 402 on Wednesday, 2 December at 2pm.

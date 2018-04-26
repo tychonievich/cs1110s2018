@@ -12,12 +12,10 @@ Per <a href="http://www.virginia.edu/registrar/exams.html#1182">the registrar</a
 
 Section     Instructor          Exam location             
 ----------- -----------------   --------------------------
-1110-001    Tychonievich        Wilson 301 if the digit in your computing ID is 3, 6, or 8<br/>or Wilson 402 if the digit in your computing ID is 2, 4, 5, 7, or 9
+1110-001    Tychonievich        Wilson 301 if the digit in your computing ID is 3, 6, or 8<br/>Wilson 402 if the digit in your computing ID is 2, 4, 5, 7, or 9
 1110-002    Dill                Olson 120           
-1110-003    Tychonievich        Wilson 301 if the digit in your computing ID is 3, 6, or 8<br/>or Wilson 402 if the digit in your computing ID is 2, 4, 5, 7, or 9
+1110-003    Tychonievich        Wilson 301 if the digit in your computing ID is 3, 6, or 8<br/>Wilson 402 if the digit in your computing ID is 2, 4, 5, 7, or 9
 1111-001    Praphamontripong    Thorton E303
-
-\* Sections 001 and 003: go to Wilson 301 if the digit in your computing ID is a 3, 6, or 8; go to Wilson 402 if it is 2, 4, 5, 7, or 9. Sorry about this; they didn't give us the right sized rooms...
 
 7pm exams in large rooms tend to have **heating** problems, fluctuating between too cold and too warm over the course of the exam. Dress in layers.
 

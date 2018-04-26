@@ -169,7 +169,7 @@ How do I implement a split-screen view?
 # Submission
 
 You'll need to submit your code and any support files to Archimedes.
-In addition to the final submission date of midnight, the last day of classes (not the last day of finals).
+The final submission date is midnight on the last day of classes (not the last day of finals).
 We will also check your progress with two intermediate checkpoints, each due midnight the day before a lab.
 **Making steady progress every week** is a requirement for full credit on this assignment.
 

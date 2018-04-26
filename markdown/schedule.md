@@ -10,16 +10,12 @@ To subscribe to the above calendar, add <http://cs1110.cs.virginia.edu/cal.ics> 
 
 Per <a href="http://www.virginia.edu/registrar/exams.html#1182">the registrar</a>, all sections of 1110 and 1111 will have their final exam at **7--10 pm on Thursday, 3 May 2018**. These will be in:
 
-Section     Exam location
------------ -----------------------
-1110-001    Wilson 402    
-1110-002    Olson 120
-1110-003    Wilson 301
-1111-001    Thorton E303
-
-We have not yet been given rooms for these exams.
-
-
+Section     Exam location       Exam Time                           Notes
+----------- ------------------- --------------------------------    --------------
+1110-001    Wilson 402          7--10 pm on Thursday, 3 May 2018
+1110-002    Olson 120           7--10 pm on Thursday, 3 May 2018
+1110-003    Wilson 301          7--10 pm on Thursday, 3 May 2018    Wilson 301 is too small, but Wilson 402 next door is larger than needed. We'll move some students from 301 to 402.
+1111-001    Thorton E303        7--10 pm on Thursday, 3 May 2018
 
 7pm exams in large rooms tend to have **heating** problems, fluctuating between too cold and too warm over the course of the exam. Dress in layers.
 

@@ -105,7 +105,7 @@ Spring 2018 | [s2018e2.pdf](files/s2018e2.pdf) | [s2018e2key.html](files/s2018e2
 -   `import pygame, gamebox`{.python}
     -   `box1.touches(box2)`{.python}
     -   `box1.move_to_stop_overlapping(box2)`{.python}
-    -   `box1.move_both_to_stop_overlapping(box2)`{.python}
+    -   `box1.speedx`{.python}, `box1.speedy`{.python}, and `box1.move_speed()`{.python}
     -   `camera.draw(box)`{.python}
     -   `camera.display()`{.python}
     -   `timer_loop(ticks_per_second, ticks)`{.python} and the basics of how to write a `ticks` function, including

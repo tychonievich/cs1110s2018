@@ -14,7 +14,7 @@ Section     Exam location       Notes
 ----------- ------------------- --------------
 1110-001    Wilson 402          
 1110-002    Olson 120           
-1110-003    Wilson 301          Wilson 301 is too small, but Wilson 402 next door is larger than needed. We'll move some students from 301 to 402.
+1110-003    Wilson 301          Wilson 301 is too small, so we'll have some students move to Wilson 402 next door.
 1111-001    Thorton E303        
 
 7pm exams in large rooms tend to have **heating** problems, fluctuating between too cold and too warm over the course of the exam. Dress in layers.

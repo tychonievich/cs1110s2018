@@ -157,6 +157,15 @@ I'm getting an error opening images
 Can I use `robot.py` from Lab as part of my game?
 :   No.
 
+How do I implement a split-screen view?
+:   There are three parts to this:
+    
+    1. keep track of two different virtual camera locations
+    2. use `camera._surface.set_clip(...)` to draw each part of the screen separately
+    3. draw each region, moving the `camera` so each shows its contents in the right part of the screen
+    
+    An example is available as [split_screen.py](files/split_screen.py)
+
 # Submission
 
 You'll need to submit your code and any support files to Archimedes.

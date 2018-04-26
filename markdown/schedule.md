@@ -25,12 +25,12 @@ Some of you will have conflicts with that exam time. Per university policy,
 
 > Faculty members are not authorized to change th\[e final exam\] schedule. Exceptions may be authorized only by the faculty member's dean's office.
 
-Our approved makeup time is 7--10pm on Wednesday 2 May 2018. To report a conflict and request accomodation at that time, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfM5gG6E1xK1SXkYaaYeUChVqebdeMVfrY1yKXtvX5Ju-oFEw/viewform?usp=sf_link) -- note, you'll need to log in with your @virginia.edu google account.
+Our approved makeup time is 7--10 pm on Wednesday 2 May 2018.
 
 <!--
-The deadline for reporting conflicts with the final has passed. If you have not been informed of an alternative arrangement, it is probably too late to get one now as the makeup exam room we were given is not large enough to add more people.
-
-A **TA-led review session** will be held in Chem 402 on Wednesday, 6 December at 2pm.
+ To report a conflict and request accomodation at that time, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfM5gG6E1xK1SXkYaaYeUChVqebdeMVfrY1yKXtvX5Ju-oFEw/viewform?usp=sf_link) -- note, you'll need to log in with your @virginia.edu google account.
 -->
+
+The deadline for reporting conflicts with the final has passed. If you have not been informed of an alternative arrangement, it is probably too late to get one now. Prof Tychonievich might still be able to fit you in if you have a two-exams-at-the-same-time conflict (email him in this case), but no guarantees.
 
 A **TA-led review session** will be held in Chem 402 on Wednesday, 2 December at 2pm.

@@ -183,3 +183,5 @@
   files: [/files/001/2018-04-27/write4.py, /files/001/2018-04-27/slides.pdf, /files/001/2018-04-27/f.txt,
     /files/001/2018-04-27/write5.py]
   video: /screencasts/2018-04-27-001.webm
+2018-04-30:
+  files: [/files/001/2018-04-30/e3review.py, /files/001/2018-04-30/slides.pdf]

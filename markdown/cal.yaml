@@ -309,21 +309,7 @@ assignments:
                                 rubric: {"kind":"buckets"}
                 -   name: elective features
                     ratio: 16
-                    rubric:
-                        kind: breakdown
-                        parts:
-                            -   name: first
-                                ratio: 4
-                                rubric: {"kind":"buckets"}
-                            -   name: second
-                                ratio: 4
-                                rubric: {"kind":"buckets"}
-                            -   name: third
-                                ratio: 4
-                                rubric: {"kind":"buckets"}
-                            -   name: fourth
-                                ratio: 4
-                                rubric: {"kind":"buckets"}
+                    rubric: {"kind":"buckets"}
                 -   name: a cohesive game
                     ratio: 8
                     rubric: {"kind":"buckets"}

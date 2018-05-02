@@ -65,10 +65,11 @@ the lead instructor, who is just one person, will of necessity have to be more s
 
 The basic structure of the instructor-led interview will be similar to the TA-led interview,
 though (a) there will be one interviewer present, not two; and (b) the assignment will be different.
+We traditionally also try acting the role of a different kind of student in each role-play.
 
-We are working to secure promise of funding soon.
-However, traditionally the department does not commit to a particular number of TA slots until the first week of classes.
-If that tradition holds, instructor-led interviews will occur during the first weeks of classes and hiring decisions will be made at that time.
+Instructor-led interviews generally occur during the first weeks of classes, and hiring decisions are made at that time.
+It is highly unusual for us to be able to inform new TAs of their hiring before the second or even the third week of the semester in which they will be working.
+If that timing in particularly problematic for you, please reach out to the lead instructor with your concerns.
 
 # The assignments
 

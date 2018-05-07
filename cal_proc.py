@@ -104,7 +104,12 @@ def assignments_json(data):
     for k,v in data['Special Dates'].items():
         if k.startswith('Exam'):
             ans[k] = {"group":"Exam", "due":v}
-            if k.endswith('3'): ans[k]['weight'] = 20/15
+            if k.endswith('3'): 
+                ans[k]['weight'] = 1.33
+                ans[k]['total'] = 133
+            else:
+                ans[k]['weight'] = 1
+                ans[k]['total'] = 100
             for ex,val in groups.get('Exam', {}).items():
                 if not ex.startswith('.') and ex not in totaling_keys and ex not in ans[k]:
                     ans[k][ex] = val
